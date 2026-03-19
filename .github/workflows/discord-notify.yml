@@ -1,27 +1,31 @@
-name: Discord Notification
+name: Discord Commit Notification
 
 on:
   push:
     branches:
       - main
       - master
+      - develop
+      # 添加你想要監控的分支
 
 jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v3
         with:
           fetch-depth: 2
 
-      - name: Send Discord Notification
+      - name: Send to Discord
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
-          # 提取提交資訊
-          COMMIT_MSG="${{ github.event.head_commit.message }}"
-          COMMIT_MSG_FIRST=$(echo "$COMMIT_MSG" | head -n 1 | sed 's/"/\\"/g')
+          # 提取提交訊息（轉義特殊字元）
+          COMMIT_MSG=$(echo '${{ github.event.head_commit.message }}' | sed 's/"/\\"/g' | sed "s/'/\\'/g")
+          COMMIT_MSG_FIRST_LINE=$(echo "$COMMIT_MSG" | head -n 1)
+          
+          # 基本資訊
           AUTHOR="${{ github.event.head_commit.author.name }}"
           COMMIT_URL="${{ github.event.head_commit.url }}"
           COMMIT_HASH="${{ github.sha }}"
@@ -29,42 +33,37 @@ jobs:
           BRANCH="${{ github.ref_name }}"
           REPO="${{ github.repository }}"
           
-          # 計算變更統計
+          # 計算檔案變更
           ADDED=$(git diff --numstat HEAD^ HEAD 2>/dev/null | awk '{s+=$1} END {print s+0}')
           DELETED=$(git diff --numstat HEAD^ HEAD 2>/dev/null | awk '{s+=$2} END {print s+0}')
-          FILES_CHANGED=$(git diff --name-only HEAD^ HEAD 2>/dev/null | wc -l)
           
           # 發送到 Discord
           curl -X POST "$DISCORD_WEBHOOK" \
             -H "Content-Type: application/json" \
-            -d "{
-              \"username\": \"GitHub\",
-              \"avatar_url\": \"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png\",
-              \"embeds\": [{
-                \"title\": \"📝 新提交\",
-                \"description\": \"[\`$COMMIT_SHORT\`]($COMMIT_URL) $COMMIT_MSG_FIRST\",
-                \"url\": \"$COMMIT_URL\",
-                \"color\": 5814783,
-                \"author\": {
-                  \"name\": \"$AUTHOR\"
+            -d '{
+              "username": "GitHub",
+              "avatar_url": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+              "embeds": [{
+                "title": "'"$REPO"'",
+                "description": "**['"$COMMIT_SHORT"']('"$COMMIT_URL"')** '"$COMMIT_MSG_FIRST_LINE"'",
+                "url": "'"$COMMIT_URL"'",
+                "color": 5814783,
+                "author": {
+                  "name": "'"$AUTHOR"'",
+                  "icon_url": "https://github.com/'"${{ github.event.head_commit.author.username }}"'.png"
                 },
-                \"fields\": [
+                "fields": [
                   {
-                    \"name\": \"📦 專案\",
-                    \"value\": \"[\`$REPO\`](https://github.com/$REPO)\",
-                    \"inline\": false
+                    "name": "分支",
+                    "value": "'"$BRANCH"'",
+                    "inline": true
                   },
                   {
-                    \"name\": \"🌿 分支\",
-                    \"value\": \"\`$BRANCH\`\",
-                    \"inline\": true
-                  },
-                  {
-                    \"name\": \"📊 變更\",
-                    \"value\": \"$FILES_CHANGED 個檔案 (+$ADDED -$DELETED)\",
-                    \"inline\": true
+                    "name": "變更",
+                    "value": "+'"$ADDED"' -'"$DELETED"'",
+                    "inline": true
                   }
                 ],
-                \"timestamp\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"
+                "timestamp": "'"$(date -u +%Y-%m-%dT%H:%M:%SZ)"'"
               }]
-            }"
+            }'
