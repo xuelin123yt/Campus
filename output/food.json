@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-19 19:56:18",
+  "updated_at": "2026-03-21 23:38:02",
   "total": 15,
   "data": [
     {
@@ -7,10 +7,10 @@
       "type": "food",
       "category": "集食送愛",
       "npo_name": "",
-      "title": "《濃豆奶．聯合募集》守護脆弱家庭的營養均衡",
-      "description": "用濃豆奶關注脆弱家庭，補足每日的元氣與希望。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
-      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20260303102744229",
-      "image_url": "https://www.npochannel.net/PIC/202603/20260303101825262.jpg",
+      "title": "《堅果榖粉．聯合募集》弱勢家庭的營養補給",
+      "description": "用堅果榖粉關注弱勢家庭的營養補給，補足每日能量。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20260303103405566",
+      "image_url": "https://www.npochannel.net/PIC/202603/20260303103031627.jpg",
       "date_range": "2026/03/03 ~ 2030/12/31",
       "ending_soon": false
     },
@@ -31,66 +31,6 @@
       "type": "food",
       "category": "集食送愛",
       "npo_name": "",
-      "title": "《燕麥片聯合募集》守護獨居長者的健康",
-      "description": "小小燕麥，大大關懷，為長輩增添一個月的營養補給。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
-      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20241028181510210",
-      "image_url": "https://www.npochannel.net/PIC/202601/20260129102234412.jpg",
-      "date_range": "2024/10/28 ~ 2030/12/31",
-      "ending_soon": false
-    },
-    {
-      "id": 4,
-      "type": "food",
-      "category": "集食送愛",
-      "npo_name": "",
-      "title": "《菜品聯合募集》為成長孩童的營養均衡",
-      "description": "為弱勢家庭的孩童加菜，給成長中的孩童補充營養。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
-      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20241028180830103",
-      "image_url": "https://www.npochannel.net/PIC/202512/20251209051230467.jpg",
-      "date_range": "2024/10/28 ~ 2030/12/31",
-      "ending_soon": false
-    },
-    {
-      "id": 5,
-      "type": "food",
-      "category": "集食送愛",
-      "npo_name": "",
-      "title": "《快煮鍋．聯合募集》幫助獨居長輩生活改善",
-      "description": "獻給獨居長輩的烹飪幫手，集結微小力量，帶來改變契機！（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
-      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20250501201837672",
-      "image_url": "https://www.npochannel.net/PIC/202512/20251209050846630.jpg",
-      "date_range": "2025/05/01 ~ 2030/12/31",
-      "ending_soon": false
-    },
-    {
-      "id": 6,
-      "type": "food",
-      "category": "集食送愛",
-      "npo_name": "",
-      "title": "《檯燈．聯合募集》陪伴弱勢孩子認真學習",
-      "description": "點亮學習路上的第一盞燈，照亮孩子未來！（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
-      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20250809011100376",
-      "image_url": "https://www.npochannel.net/PIC/202512/20251209050923124.jpg",
-      "date_range": "2025/08/08 ~ 2030/12/31",
-      "ending_soon": false
-    },
-    {
-      "id": 7,
-      "type": "food",
-      "category": "集食送愛",
-      "npo_name": "",
-      "title": "《雙人電熱毯．聯合募集》寒冬送暖給弱勢家庭",
-      "description": "獻給弱勢家庭的溫暖庇護，小小善意，溫暖整個冬天！（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
-      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20251017011801607",
-      "image_url": "https://www.npochannel.net/PIC/202512/20251209095042302.jpg",
-      "date_range": "2025/10/17 ~ 2026/12/31",
-      "ending_soon": false
-    },
-    {
-      "id": 8,
-      "type": "food",
-      "category": "集食送愛",
-      "npo_name": "",
       "title": "《湯品聯合募集》為獨老奉上暖暖心意",
       "description": "一份愛心，無限感動，讓弱勢家庭品嚐美味的暖心湯品。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
       "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20241028182533333",
@@ -99,43 +39,7 @@
       "ending_soon": false
     },
     {
-      "id": 9,
-      "type": "food",
-      "category": "集食送愛",
-      "npo_name": "",
-      "title": "《米漢堡聯合募集》給弱勢孩童帶來希望",
-      "description": "支持集食送愛活動，幫助偏鄉弱勢學童。（購買者不會收到商品｜勸募字號：勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
-      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20241028124238601",
-      "image_url": "https://www.npochannel.net/PIC/202512/20251209051145974.jpg",
-      "date_range": "2024/10/28 ~ 2030/12/31",
-      "ending_soon": false
-    },
-    {
-      "id": 10,
-      "type": "food",
-      "category": "集食送愛",
-      "npo_name": "",
-      "title": "《母親節蛋糕．聯合募集》被遺忘的祝福",
-      "description": "為弱勢家庭的媽媽送上溫暖的祝福，帶來久違的笑容。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
-      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20260303104124287",
-      "image_url": "https://www.npochannel.net/PIC/202603/20260303103522307.jpg",
-      "date_range": "2026/03/03 ~ 2026/05/10",
-      "ending_soon": false
-    },
-    {
-      "id": 11,
-      "type": "food",
-      "category": "集食送愛",
-      "npo_name": "",
-      "title": "《生日蛋糕．聯合募集》點亮弱勢家庭的生日願望",
-      "description": "加入集食送愛，讓弱勢家庭生日不再被遺忘。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
-      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20241220154659621",
-      "image_url": "https://www.npochannel.net/PIC/202512/20251209051123612.jpg",
-      "date_range": "2024/12/20 ~ 2030/12/31",
-      "ending_soon": false
-    },
-    {
-      "id": 12,
+      "id": 4,
       "type": "food",
       "category": "集食送愛",
       "npo_name": "",
@@ -147,7 +51,7 @@
       "ending_soon": false
     },
     {
-      "id": 13,
+      "id": 5,
       "type": "food",
       "category": "集食送愛",
       "npo_name": "",
@@ -159,19 +63,31 @@
       "ending_soon": false
     },
     {
-      "id": 14,
+      "id": 6,
       "type": "food",
       "category": "集食送愛",
       "npo_name": "",
-      "title": "《堅果榖粉．聯合募集》弱勢家庭的營養補給",
-      "description": "用堅果榖粉關注弱勢家庭的營養補給，補足每日能量。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
-      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20260303103405566",
-      "image_url": "https://www.npochannel.net/PIC/202603/20260303103031627.jpg",
+      "title": "《濃豆奶．聯合募集》守護脆弱家庭的營養均衡",
+      "description": "用濃豆奶關注脆弱家庭，補足每日的元氣與希望。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20260303102744229",
+      "image_url": "https://www.npochannel.net/PIC/202603/20260303101825262.jpg",
       "date_range": "2026/03/03 ~ 2030/12/31",
       "ending_soon": false
     },
     {
-      "id": 15,
+      "id": 7,
+      "type": "food",
+      "category": "集食送愛",
+      "npo_name": "",
+      "title": "《快煮鍋．聯合募集》幫助獨居長輩生活改善",
+      "description": "獻給獨居長輩的烹飪幫手，集結微小力量，帶來改變契機！（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20250501201837672",
+      "image_url": "https://www.npochannel.net/PIC/202512/20251209050846630.jpg",
+      "date_range": "2025/05/01 ~ 2030/12/31",
+      "ending_soon": false
+    },
+    {
+      "id": 8,
       "type": "food",
       "category": "集食送愛",
       "npo_name": "",
@@ -180,6 +96,90 @@
       "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20250501194448912",
       "image_url": "https://www.npochannel.net/PIC/202511/20251124101040802.jpg",
       "date_range": "2025/05/01 ~ 2026/12/31",
+      "ending_soon": false
+    },
+    {
+      "id": 9,
+      "type": "food",
+      "category": "集食送愛",
+      "npo_name": "",
+      "title": "《燕麥片聯合募集》守護獨居長者的健康",
+      "description": "小小燕麥，大大關懷，為長輩增添一個月的營養補給。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20241028181510210",
+      "image_url": "https://www.npochannel.net/PIC/202601/20260129102234412.jpg",
+      "date_range": "2024/10/28 ~ 2030/12/31",
+      "ending_soon": false
+    },
+    {
+      "id": 10,
+      "type": "food",
+      "category": "集食送愛",
+      "npo_name": "",
+      "title": "《檯燈．聯合募集》陪伴弱勢孩子認真學習",
+      "description": "點亮學習路上的第一盞燈，照亮孩子未來！（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20250809011100376",
+      "image_url": "https://www.npochannel.net/PIC/202512/20251209050923124.jpg",
+      "date_range": "2025/08/08 ~ 2030/12/31",
+      "ending_soon": false
+    },
+    {
+      "id": 11,
+      "type": "food",
+      "category": "集食送愛",
+      "npo_name": "",
+      "title": "《母親節蛋糕．聯合募集》被遺忘的祝福",
+      "description": "為弱勢家庭的媽媽送上溫暖的祝福，帶來久違的笑容。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20260303104124287",
+      "image_url": "https://www.npochannel.net/PIC/202603/20260303103522307.jpg",
+      "date_range": "2026/03/03 ~ 2026/05/10",
+      "ending_soon": false
+    },
+    {
+      "id": 12,
+      "type": "food",
+      "category": "集食送愛",
+      "npo_name": "",
+      "title": "《生日蛋糕．聯合募集》點亮弱勢家庭的生日願望",
+      "description": "加入集食送愛，讓弱勢家庭生日不再被遺忘。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20241220154659621",
+      "image_url": "https://www.npochannel.net/PIC/202512/20251209051123612.jpg",
+      "date_range": "2024/12/20 ~ 2030/12/31",
+      "ending_soon": false
+    },
+    {
+      "id": 13,
+      "type": "food",
+      "category": "集食送愛",
+      "npo_name": "",
+      "title": "《雙人電熱毯．聯合募集》寒冬送暖給弱勢家庭",
+      "description": "獻給弱勢家庭的溫暖庇護，小小善意，溫暖整個冬天！（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20251017011801607",
+      "image_url": "https://www.npochannel.net/PIC/202512/20251209095042302.jpg",
+      "date_range": "2025/10/17 ~ 2026/12/31",
+      "ending_soon": false
+    },
+    {
+      "id": 14,
+      "type": "food",
+      "category": "集食送愛",
+      "npo_name": "",
+      "title": "《菜品聯合募集》為成長孩童的營養均衡",
+      "description": "為弱勢家庭的孩童加菜，給成長中的孩童補充營養。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20241028180830103",
+      "image_url": "https://www.npochannel.net/PIC/202512/20251209051230467.jpg",
+      "date_range": "2024/10/28 ~ 2030/12/31",
+      "ending_soon": false
+    },
+    {
+      "id": 15,
+      "type": "food",
+      "category": "集食送愛",
+      "npo_name": "",
+      "title": "《米漢堡聯合募集》給弱勢孩童帶來希望",
+      "description": "支持集食送愛活動，幫助偏鄉弱勢學童。（購買者不會收到商品｜勸募字號：勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+      "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20241028124238601",
+      "image_url": "https://www.npochannel.net/PIC/202512/20251209051145974.jpg",
+      "date_range": "2024/10/28 ~ 2030/12/31",
       "ending_soon": false
     }
   ]

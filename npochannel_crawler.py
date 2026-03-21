@@ -1,6 +1,7 @@
 """
 AI 善意橋樑 — NPO Channel 爬蟲
 支援四個頁面：公益募款 / 集食送愛 / 溫馨影片 / 公益夥伴（含內頁）
+公益募款額外抓取內頁完整文章內容
 """
 
 import requests
@@ -38,7 +39,6 @@ def clean(text: str) -> str:
 
 
 def clean_number(text: str) -> int:
-    """把 '1,663,400' 或 '26個' 這類字串轉成數字"""
     try:
         return int("".join(filter(str.isdigit, text.replace(",", ""))))
     except Exception:
@@ -67,10 +67,76 @@ def fetch_page(url: str):
 
 
 # ══════════════════════════════════════════════════════
-# 爬蟲：公益募款 / 集食送愛 / 溫馨影片
+# 爬蟲：公益募款內頁文章
 # ══════════════════════════════════════════════════════
 
-def crawl_cards(url: str, page_type: str) -> list:
+def parse_fundraising_detail(soup) -> dict:
+    """
+    抓取公益募款內頁 <!--CONTENT--> 區塊的完整資料：
+    - 標籤（募款計畫、身心障礙等）
+    - 勸募字號
+    - 日期
+    - 完整文章段落
+    - 所有圖片網址
+    """
+    result = {}
+
+    # 找主要內容區塊
+    content = soup.select_one("div.uk-width-2-3\\@m")
+    if not content:
+        # fallback：找 uk-container-small
+        content = soup.select_one("div.uk-container.uk-container-small")
+    if not content:
+        return result
+
+    # ── 標籤 ──────────────────────────────────────────
+    labels = content.select("span.uk-label")
+    result["labels"] = [clean(l.text) for l in labels]
+
+    # ── 勸募字號 ──────────────────────────────────────
+    meta_tags = content.select("p.uk-article-meta")
+    result["permit_number"] = ""
+    result["date_range"]    = ""
+    for meta in meta_tags:
+        text = clean(meta.text)
+        if "勸募字號" in text:
+            result["permit_number"] = text.replace("勸募字號:", "").replace("勸募字號：", "").strip()
+        elif "~" in text or "/" in text:
+            result["date_range"] = text.strip()
+
+    # ── 文章段落（所有 p 和 h4）─────────────────────
+    paragraphs = []
+    # 抓取所有文字區塊
+    for tag in content.select("p, h4.uk-h4, p.uk-dropcap"):
+        text = tag.get_text(separator=" ", strip=True)
+        text = text.replace("\xa0", " ").replace("\r\n", " ").replace("\n", " ").strip()
+        # 過濾掉 meta 資料和太短的文字
+        if text and len(text) > 10 and "勸募字號" not in text and "uk-article-meta" not in str(tag.get("class", "")):
+            # 避免重複加入
+            if text not in paragraphs:
+                paragraphs.append(text)
+
+    result["article_paragraphs"] = paragraphs
+
+    # ── 合併成完整文章文字（供 AI 使用）──────────────
+    result["full_article"] = "\n\n".join(paragraphs)
+
+    # ── 文章內圖片 ────────────────────────────────────
+    images = []
+    for img in content.select("figure img"):
+        src = img.get("src", "")
+        if src and "npochannel.net" in src and src != f"{BASE_URL}/":
+            images.append(src)
+    result["article_images"] = images
+
+    return result
+
+
+# ══════════════════════════════════════════════════════
+# 爬蟲：公益募款 / 集食送愛 / 溫馨影片（列表頁）
+# ══════════════════════════════════════════════════════
+
+def crawl_cards(url: str, page_type: str, fetch_detail: bool = False) -> list:
     print(f"   🌐 連線到 {url} ...")
     soup = fetch_page(url)
     if not soup:
@@ -106,7 +172,7 @@ def crawl_cards(url: str, page_type: str) -> list:
             if not title or not link:
                 continue
 
-            results.append({
+            item = {
                 "id":          i + 1,
                 "type":        page_type,
                 "category":    category,
@@ -117,9 +183,20 @@ def crawl_cards(url: str, page_type: str) -> list:
                 "image_url":   image_url,
                 "date_range":  date_str,
                 "ending_soon": is_ending_soon(date_str) if date_str else False,
-            })
+            }
 
-            print(f"   ✅ [{i+1}] {title[:40]}...")
+            # 公益募款額外抓內頁文章
+            if fetch_detail and link:
+                print(f"   🔍 [{i+1}/{len(cards)}] {title[:30]}... → 抓取內頁")
+                detail_soup = fetch_page(link)
+                if detail_soup:
+                    detail = parse_fundraising_detail(detail_soup)
+                    item.update(detail)
+                time.sleep(0.8)  # 禮貌性延遲
+            else:
+                print(f"   ✅ [{i+1}] {title[:40]}...")
+
+            results.append(item)
 
         except Exception as e:
             print(f"   ⚠️  Card {i+1} 解析失敗：{e}")
@@ -132,22 +209,11 @@ def crawl_cards(url: str, page_type: str) -> list:
 # ══════════════════════════════════════════════════════
 
 def parse_partner_detail(soup) -> dict:
-    """
-    解析公益夥伴內頁，抓取：
-    - 簡介
-    - 基本資料（社區數、據點數、員工數、加入年份）
-    - 公益支持（天數、NPO 數、募款計畫數）
-    - 帶動捐款（單次、定期、總計）
-    - 集食送愛數據
-    """
     result = {}
 
-    # ── 簡介 ──────────────────────────────────────────
     desc_tag = soup.select_one("div.uk-width-1-1 h5")
     result["description"] = clean(desc_tag.text) if desc_tag else ""
 
-    # ── 基本資料區塊（社區數 / 據點數 / 員工數 / 加入時間）──
-    # 找所有 h1.uk-heading-primary 的父層區塊
     info_blocks = soup.select(
         "div.uk-grid.uk-grid-divider.uk-grid-medium.uk-child-width-1-2 > div"
     )
@@ -156,25 +222,19 @@ def parse_partner_detail(soup) -> dict:
     for idx, block in enumerate(info_blocks[:4]):
         h1 = block.select_one("h1")
         if h1:
-            # 移除 small tag 的文字，只取數字本體
             small = h1.find("small")
             if small:
                 small.extract()
             stats[stat_keys[idx]] = clean_number(h1.text)
     result["stats"] = stats
 
-    # ── 公益支持、帶動捐款、集食送愛 ──────────────────
-    # 用 h3 標題來定位各個區塊
     sections = soup.select("h3.uk-heading-bullet")
-
     for section in sections:
         title = clean(section.text)
-        panel = section.find_next_sibling("div")  # 緊接著的 div 就是數據區
-
+        panel = section.find_next_sibling("div")
         if not panel:
             continue
 
-        # ── 公益支持 ──────────────────────────────────
         if "公益支持" in title:
             h1_tags = panel.select("h1.uk-heading-primary")
             charity = {}
@@ -187,14 +247,13 @@ def parse_partner_detail(soup) -> dict:
                     charity[keys[idx]] = clean_number(h1.text)
             result["charity_impact"] = charity
 
-        # ── 帶動捐款 ──────────────────────────────────
         elif "帶動捐款" in title:
-            sub_divs = panel.select("div.uk-grid > div")
+            sub_divs  = panel.select("div.uk-grid > div")
             donations = {}
             cat_map   = {0: "one_time", 1: "recurring", 2: "total"}
             for i, div in enumerate(sub_divs[:3]):
-                h2s   = div.select("h2.uk-heading-primary")
-                entry = {}
+                h2s      = div.select("h2.uk-heading-primary")
+                entry    = {}
                 sub_keys = ["people", "count", "amount"]
                 for j, h2 in enumerate(h2s[:3]):
                     small = h2.find("small")
@@ -204,9 +263,8 @@ def parse_partner_detail(soup) -> dict:
                 donations[cat_map[i]] = entry
             result["donations"] = donations
 
-        # ── 集食送愛 ──────────────────────────────────
         elif "集食送愛" in title:
-            h2s      = panel.select("h2.uk-heading-primary")
+            h2s       = panel.select("h2.uk-heading-primary")
             food_keys = ["people", "count", "portions", "amount"]
             food      = {}
             for j, h2 in enumerate(h2s[:4]):
@@ -220,7 +278,6 @@ def parse_partner_detail(soup) -> dict:
 
 
 def crawl_partner(url: str) -> list:
-    """爬公益夥伴列表頁，再逐一進內頁抓詳細資料"""
     print(f"   🌐 連線到 {url} ...")
     soup = fetch_page(url)
     if not soup:
@@ -232,7 +289,6 @@ def crawl_partner(url: str) -> list:
     results = []
     for i, card in enumerate(cards):
         try:
-            # ── 列表頁基本資料 ────────────────────────
             cat_tag  = card.select_one("span.cat-txt")
             category = clean(cat_tag.text) if cat_tag else ""
 
@@ -267,16 +323,13 @@ def crawl_partner(url: str) -> list:
                 "image_url":     image_url,
             }
 
-            # ── 進內頁抓詳細資料 ──────────────────────
             print(f"   🔍 [{i+1}/{len(cards)}] {name} → 抓取內頁...")
             detail_soup = fetch_page(inner_url)
             if detail_soup:
                 detail = parse_partner_detail(detail_soup)
-                item.update(detail)  # 合併到同一個 dict
+                item.update(detail)
 
             results.append(item)
-
-            # 禮貌性延遲，避免對伺服器造成負擔
             time.sleep(0.8)
 
         except Exception as e:
@@ -290,7 +343,7 @@ def crawl_partner(url: str) -> list:
 # ══════════════════════════════════════════════════════
 
 def save_json(data, filename: str):
-    flat  = data if isinstance(data, list) else [i for v in data.values() for i in v]
+    flat   = data if isinstance(data, list) else [i for v in data.values() for i in v]
     output = {
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "total":      len(flat),
@@ -318,10 +371,16 @@ def run(choice: str) -> list:
     print(f"\n{'='*55}")
     print(f"🕷️  爬取：{page['name']}")
     print(f"{'='*55}")
+
     if page["type"] == "partner":
         return crawl_partner(page["url"])
+    elif page["type"] == "fundraising":
+        # 公益募款：詢問是否要抓內頁
+        fetch_detail = True  # 預設抓內頁
+        print("   📖 公益募款：含內頁完整文章")
+        return crawl_cards(page["url"], page["type"], fetch_detail=fetch_detail)
     else:
-        return crawl_cards(page["url"], page["type"])
+        return crawl_cards(page["url"], page["type"], fetch_detail=False)
 
 
 # ══════════════════════════════════════════════════════
@@ -337,7 +396,8 @@ def main():
         print(f"    {key}. {val['name']}")
     print("    5. 全部資料（分開儲存）")
     print("    6. 全部資料（合併成一個 JSON）")
-    print("\n" + "="*55)
+    print("\n  ※ 公益募款（選項1）會自動抓取每篇文章完整內容")
+    print("="*55)
 
     choice = sys.argv[1] if len(sys.argv) > 1 else input("  請輸入選項（1-6）：").strip()
 
