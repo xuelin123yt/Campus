@@ -1,0 +1,30 @@
+name: 每日爬蟲更新個案庫
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # 每天 UTC 00:00 = 台灣 08:00
+  workflow_dispatch:      # 手動觸發
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安裝套件
+        run: pip install -r requirements.txt
+
+      - name: 執行爬蟲
+        run: python npochannel_crawler.py 1
+
+      - name: 提交更新的 JSON
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add output/
+          git diff --staged --quiet || git commit -m "auto: 更新個案庫 $(date '+%Y-%m-%d')"
+          git push
