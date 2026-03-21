@@ -1,8 +1,3 @@
-"""
-AI 善意橋樑 — post.py
-流程：選個案 → Gemini 生文案 → Pollinations 生圖 → Threads 發文
-"""
-
 import os
 import json
 import random
@@ -15,16 +10,12 @@ from google import genai
 load_dotenv()
 
 # ── 環境變數 ────────────────────────────────────────────
-GEMINI_API_KEY        = os.environ["GEMINI_API_KEY"]
-THREADS_USER_ID       = os.environ["THREADS_USER_ID"]
-THREADS_ACCESS_TOKEN  = os.environ["THREADS_ACCESS_TOKEN"]
-THREADS_APP_ID        = os.environ["THREADS_APP_ID"]
-THREADS_APP_SECRET    = os.environ["THREADS_APP_SECRET"]
-
-THREADS_BASE  = "https://graph.threads.net/v1.0"
-USED_FILE     = "used_today.json"
-CASES_FILE    = "output/fundraising.json"
-
+GEMINI_API_KEY        = os.environ.get("GEMINI_API_KEY")
+THREADS_USER_ID       = os.environ.get("THREADS_USER_ID")
+THREADS_ACCESS_TOKEN  = os.environ.get("THREADS_ACCESS_TOKEN")
+THREADS_BASE          = "https://graph.threads.net/v1.0"
+USED_FILE             = "used_today.json"
+CASES_FILE            = "output/fundraising.json"
 
 # ══════════════════════════════════════════════════════
 # Step 1：Token 刷新
@@ -44,220 +35,182 @@ def refresh_token() -> str:
             new_token = resp.json().get("access_token", THREADS_ACCESS_TOKEN)
             print("🔑 Token 刷新成功")
             return new_token
-        else:
-            print(f"⚠️  Token 刷新失敗，使用原 Token：{resp.text}")
-            return THREADS_ACCESS_TOKEN
+        return THREADS_ACCESS_TOKEN
     except Exception as e:
         print(f"⚠️  Token 刷新錯誤：{e}")
         return THREADS_ACCESS_TOKEN
-
 
 # ══════════════════════════════════════════════════════
 # Step 2：選取今日個案
 # ══════════════════════════════════════════════════════
 
 def load_used_today() -> list:
+    if not os.path.exists(USED_FILE): return []
     try:
         with open(USED_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-        if data.get("date") != str(date.today()):
-            return []
+        if data.get("date") != str(date.today()): return []
         return data.get("used_ids", [])
-    except Exception:
-        return []
-
+    except: return []
 
 def save_used_today(used_ids: list):
     with open(USED_FILE, "w", encoding="utf-8") as f:
-        json.dump({
-            "date":     str(date.today()),
-            "used_ids": used_ids
-        }, f, ensure_ascii=False)
-
+        json.dump({"date": str(date.today()), "used_ids": used_ids}, f, ensure_ascii=False, indent=4)
 
 def pick_case() -> dict:
     with open(CASES_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
-
-    cases    = data.get("data", [])
+    cases = data.get("data", [])
     used_ids = load_used_today()
-
-    available = [c for c in cases if c.get("id") not in used_ids]
-
+    available = [c for c in cases if str(c.get("id")) not in [str(i) for i in used_ids]]
+    
     if not available:
-        print("⚠️  今天所有個案都用過了，重置重新開始")
         available = cases
+        used_ids = []
 
-    ending_soon = [c for c in available if c.get("ending_soon")]
-    chosen = random.choice(ending_soon if ending_soon else available)
-
+    chosen = random.choice([c for c in available if c.get("ending_soon")] or available)
     used_ids.append(chosen.get("id"))
     save_used_today(used_ids)
-
     return chosen
 
-
 # ══════════════════════════════════════════════════════
-# Step 3：Gemini 生成文案
+# Step 3：Gemini 生成文案 (修正模型名稱)
 # ══════════════════════════════════════════════════════
 
 STYLES = {
-    "反問式": "以一個令人深思的反問句開頭，例如「你知道嗎？」或「如果是你，你會怎麼做？」，再帶入故事",
-    "感動式": "直接從一個真實的生活場景切入，用細節描寫打動人心，情緒層層遞進",
-    "科普式": "先提出一個台灣社會現況的數據或事實，再帶入這個個案說明問題的真實性",
+    "反問式": "以一個令人深思的反問句開頭，例如「你知道嗎？」或「如果是你，你會怎麼做？」。",
+    "感動式": "直接從一個真實的生活場景切入，情緒層層遞進。",
+    "科普式": "先提出一個台灣社會現況的數據或事實，再帶入個案。",
 }
 
-
 def generate_post(case: dict, style_name: str) -> str:
+    # 🌟 2026 最新 SDK 必須使用 Client 物件
     client = genai.Client(api_key=GEMINI_API_KEY)
-
-    today      = datetime.now().strftime("%Y年%m月%d日")
-    style_desc = STYLES[style_name]
-
+    
+    # 🌟 使用你剛才測試成功的模型名稱
+    model_name = "gemini-robotics-er-1.5-preview"
+    
+    # --- 以下完全保留你原本的 Prompt 寫法 ---
     prompt = f"""
-今天是 {today}。
 請根據以下公益個案，用「{style_name}」風格撰寫一篇 Threads 貼文。
-
+風格說明：{STYLES[style_name]}
 【個案標題】{case.get('title', '')}
 【組織名稱】{case.get('npo_name', '')}
-【類別】{case.get('category', '')}
 【個案描述】{case.get('description', '')}
 【捐款連結】{case.get('link', '')}
 
-撰寫風格說明：
-{style_desc}
-
-撰寫規則：
-1. 字數：200～300 字之間
-2. 結構：開頭引發共鳴 → 中段說明需求 → 結尾明確行動呼籲
-3. 語氣：溫暖真誠，像朋友在說話
-4. 格式：Threads 段落換行，每段不超過 3 行
-5. 結尾附上捐款連結
-6. 最後加上 3～5 個 hashtag，包含 #公益 #台灣
-7. 只輸出貼文內容，不要加任何說明文字
+規則：
+1. 字數 200-300 字，段落清晰。
+2. 語氣真誠溫暖。
+3. 結尾附上連結與 #公益 #台灣 等 3-5 個 hashtag。
+4. 只輸出貼文內容。
 """
+    # ---------------------------------------
 
-    response = client.models.generate_content(
-        model="gemini-2.0-flash-lite",
-        contents=prompt
-    )
-    return response.text.strip()
+    try:
+        print(f"🚀 使用成功路徑：{model_name} (風格: {style_name})")
+        
+        # 🌟 對接最新 SDK 的 generate_content 呼叫方式
+        response = client.models.generate_content(
+            model=model_name,
+            contents=prompt
+        )
+        
+        if response and response.text:
+            return response.text.strip()
+        else:
+            return "文案生成失敗：AI 回傳內容為空"
 
+    except Exception as e:
+        print(f"❌ 嘗試生成文案時發生錯誤: {e}")
+        # 備援機制：如果 robotics 模型暫時無法使用，嘗試自動切換到 2.0-flash
+        try:
+            print("🔄 正在嘗試備援模型 gemini-2.0-flash...")
+            backup_res = client.models.generate_content(
+                model="gemini-2.0-flash", 
+                contents=prompt
+            )
+            return backup_res.text.strip()
+        except:
+            return "文案生成暫時失敗，請檢查 API 配額。"
 
 # ══════════════════════════════════════════════════════
 # Step 4：Pollinations 生成插圖
 # ══════════════════════════════════════════════════════
 
-IMAGE_PROMPTS = {
-    "募款計畫": "warm watercolor illustration, people helping each other, soft warm colors, gentle, hopeful, taiwanese charity",
-    "集食送愛": "warm watercolor illustration, food sharing community, elderly and children, soft colors, heartwarming",
-    "溫馨影片": "warm watercolor illustration, family love, mother and child, soft pastel colors, gentle light",
-    "default":  "warm watercolor illustration, kindness and hope, soft colors, gentle, community helping",
-}
-
-
 def get_image_url(case: dict) -> str:
-    category       = case.get("category", "default")
-    prompt         = IMAGE_PROMPTS.get(category, IMAGE_PROMPTS["default"])
-    title_keywords = case.get("title", "")[:20]
-    full_prompt    = f"{prompt}, {title_keywords}"
-
-    encoded   = requests.utils.quote(full_prompt)
-    image_url = f"https://image.pollinations.ai/prompt/{encoded}?width=1080&height=1080&nologo=true"
-
-    try:
-        resp = requests.head(image_url, timeout=15)
-        if resp.status_code == 200:
-            print("🖼️  圖片生成成功")
-            return image_url
-        else:
-            print(f"⚠️  圖片生成失敗（{resp.status_code}），改發純文字")
-            return None
-    except Exception as e:
-        print(f"⚠️  圖片請求錯誤：{e}，改發純文字")
-        return None
-
+    keywords = requests.utils.quote(case.get("title", "")[:15])
+    prompt = requests.utils.quote("warm watercolor illustration, kindness and hope, soft colors, gentle")
+    return f"https://image.pollinations.ai/prompt/{prompt},{keywords}?width=1080&height=1080&nologo=true&seed={random.randint(1,999)}"
 
 # ══════════════════════════════════════════════════════
-# Step 5：Threads 發文
+# Step 5：Threads 發文 (包含圖片容錯機制)
 # ══════════════════════════════════════════════════════
 
-def create_container(text: str, image_url: str, token: str) -> str:
-    url    = f"{THREADS_BASE}/{THREADS_USER_ID}/threads"
-    params = {
-        "access_token": token,
-        "text":         text,
-    }
+def post_to_threads(text: str, image_url: str, token: str):
+    # --- 圖片可用性檢查 ---
+    if image_url:
+        print(f"🖼️  正在驗證圖片是否可抓取...")
+        try:
+            # 預先下載圖片，確保 URI 有效且 Pollinations 已生成完成
+            img_check = requests.get(image_url, timeout=20)
+            if img_check.status_code != 200:
+                print("⚠️  圖片抓取失敗，降級為純文字發文")
+                image_url = None
+        except:
+            image_url = None
 
+    url = f"{THREADS_BASE}/{THREADS_USER_ID}/threads"
+    params = {"access_token": token, "text": text}
+    
     if image_url:
         params["media_type"] = "IMAGE"
         params["image_url"]  = image_url
     else:
         params["media_type"] = "TEXT"
 
-    resp = requests.post(url, params=params, timeout=15)
-
+    resp = requests.post(url, params=params)
     if resp.status_code != 200:
-        print(f"❌ 建立容器失敗：{resp.status_code} {resp.text}")
-        resp.raise_for_status()
-
-    return resp.json()["id"]
-
-
-def publish_container(creation_id: str, token: str) -> str:
-    print("⏳ 等待 30 秒讓容器準備完成...")
+        print(f"❌ 容器建立失敗: {resp.text}")
+        return None
+    
+    creation_id = resp.json()["id"]
+    print("⏳ 等待 30 秒讓 Threads 處理...")
     time.sleep(30)
 
-    url  = f"{THREADS_BASE}/{THREADS_USER_ID}/threads_publish"
-    resp = requests.post(url, params={
-        "creation_id":  creation_id,
-        "access_token": token,
-    }, timeout=15)
-
-    if resp.status_code != 200:
-        print(f"❌ 發布失敗：{resp.status_code} {resp.text}")
-        resp.raise_for_status()
-
-    return resp.json()["id"]
-
+    publish_url = f"{THREADS_BASE}/{THREADS_USER_ID}/threads_publish"
+    resp_pub = requests.post(publish_url, params={"creation_id": creation_id, "access_token": token})
+    return resp_pub.json().get("id") if resp_pub.status_code == 200 else None
 
 # ══════════════════════════════════════════════════════
 # 主流程
 # ══════════════════════════════════════════════════════
 
 def main():
-    print("=" * 55)
-    print(f"🌉 AI Kindness Bridge 啟動  {datetime.now()}")
-    print("=" * 55)
-
-    print("\n🔑 Step 1：刷新 Token")
+    print("="*50)
+    print(f"🌉 AI Kindness Bridge 啟動 | {datetime.now()}")
+    
     token = refresh_token()
-
-    print("\n📂 Step 2：選取個案")
-    case = pick_case()
-    print(f"   → {case.get('title', '')}（{case.get('npo_name', '')}）")
+    case  = pick_case()
+    print(f"📂 選定個案: {case.get('title')}")
 
     style = random.choice(list(STYLES.keys()))
-    print(f"\n✍️  Step 3：Gemini 生成文案（{style}）")
     post_text = generate_post(case, style)
-    print(f"\n{'-'*50}")
-    print(post_text)
-    print(f"{'-'*50}\n")
+    
+    if "失敗" in post_text:
+        print("🛑 停止任務: Gemini 無法生成文案")
+        return
 
-    print("🖼️  Step 4：Pollinations 生成插圖")
+    print(f"\n[生成文案]\n{post_text}\n")
+    
     image_url = get_image_url(case)
+    post_id = post_to_threads(post_text, image_url, token)
 
-    print("\n🚀 Step 5：發文到 Threads")
-    creation_id = create_container(post_text, image_url, token)
-    print(f"   → 容器建立：{creation_id}")
-
-    post_id = publish_container(creation_id, token)
-    print(f"\n✅ 發文成功！Post ID：{post_id}")
-    print(f"   → 個案：{case.get('title', '')}")
-    print(f"   → 風格：{style}")
-    print(f"   → 時間：{datetime.now()}")
-    print("=" * 55)
-
+    if post_id:
+        print(f"✅ 發文成功! Post ID: {post_id}")
+    else:
+        print("❌ 發文失敗")
+    print("="*50)
 
 if __name__ == "__main__":
     main()

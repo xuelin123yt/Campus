@@ -1,0 +1,3100 @@
+{
+  "updated_at": "2026-03-21 23:36:05",
+  "total": 226,
+  "data": {
+    "fundraising": [
+      {
+        "id": 1,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "愚人之友慈善基金會",
+        "title": "用愛「浴」見偏鄉，找回身心的尊嚴（到宅沐浴車）",
+        "description": "洗澡，對人來說是每天基本的放鬆；但對南投山區的失能長輩而言，卻是奢求。長期臥床加上山區潮濕，讓他們的身體與臥室常伴隨著異味、皮屑與黴菌。 長期無法洗澡，不僅容易導致皮膚感染、褥瘡惡化，更讓長輩在異味中逐漸封閉自我，失去了身為人的自信與尊嚴。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260128093421872",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260128093604494.gif",
+        "date_range": "2026/01/28 ~ 2026/05/31",
+        "ending_soon": false
+      },
+      {
+        "id": 2,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "肯愛服務協會",
+        "title": "黃奶奶從來沒有說過她很孤單",
+        "description": "黃奶奶從來沒有說過她很孤單，但每次當一對一志工陪伴奶奶的時候，總可以看到奶奶眼中的淚光。我們都還沒有到老的時候，我們也沒辦法體會老人的孤單。只要多陪伴老人一次，讓他們在當下感受到溫暖，竟然就能帶來這麼大的力量。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250715132202226",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251210132301160.jpg",
+        "date_range": "2025/08/01 ~ 2026/07/31",
+        "ending_soon": false
+      },
+      {
+        "id": 3,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "生命殞落前...成為接住最後的ㄧ張網",
+        "description": "行動不便或是長期臥床的朋友們才能離開病榻到外面曬太陽，幫助他們提升身體的抵抗力，還能  1省下大筆我們的健保支出 2幫助他們重新接觸人群、融入社會 3電動床利於餵食 4氣墊床減少褥瘡！...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260312181913877",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260312181647208.png",
+        "date_range": "2026/03/12 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 4,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華長照協會",
+        "title": "真心陪伴，就是一個家",
+        "description": "家的定義，從來就不只有血緣關係 只要真心陪伴就是一個家 75歲的他，有了我們的陪伴，每天的生活就有往前的動力！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260109111005543",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260109110054652.jpg",
+        "date_range": "2026/01/09 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 5,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "運動神經元疾病病友協..",
+        "title": "2025年「漸凍人家庭守護天使」勸募計畫",
+        "description": "提供460個病友家庭經濟生活補助、急難救助、子女獎學金補助、輔具補助、實物給付及照護補助等，協助病友家庭於面對龐大的照護壓力時，得以紓緩經濟困境。提供每戶病友家庭歲末送暖的禮物，並邀請協會理監事與志工一同至病友長期住宿之醫院或機構送上關懷。帶病友走出戶外，透過協會年度的春遊與北中南各區域病友聯誼之活動方式，藉由外出活動紓緩病友與家屬長期堆積之壓力。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250603105406516",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209114051044.png",
+        "date_range": "2025/06/04 ~ 2026/04/26",
+        "ending_soon": false
+      },
+      {
+        "id": 6,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "老五老基金會",
+        "title": "【獨老關懷】陪伴支持計畫",
+        "description": "有時長輩最需要的，是一份陪伴 長年服務中，我們發現許多長輩雖然生活基本需求被滿足，但心裡仍感到孤單。 子女不在身邊、朋友逐漸凋零，有可能一整天都沒有與人說話的機會。 老五老基金會透過日常關懷與陪伴，從訪視、聊天與生活互動中，了解長輩的需求，在重要時刻提供陪伴與支持。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260318141033974",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260318140955794.jpg",
+        "date_range": "2026/03/18 ~ 2026/10/31",
+        "ending_soon": false
+      },
+      {
+        "id": 7,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "普仁青年關懷基金會",
+        "title": "您的支持，是孩子安心上學的力量│助學計畫",
+        "description": "【助學計畫】2007年服務至今 服務對象為全台近貧弱勢之國、高中生。透過與學校合作，找出需要幫助的孩子，提供助學金、品格教育及多元的活動，讓孩子開拓視野，擁有不同人生體驗。 ❤️2026 年共扶助國中生 360 位，高中生 500 位，共計 860 位。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260105123043848",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260105122904307.jpg",
+        "date_range": "2026/01/05 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 8,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "無法袖手旁觀的...角落的急難救助費",
+        "description": "從北榮及其它聯醫42位社工提供了急需幫助的近80多個家庭。細看每份資料家庭狀態冰冷多樣，無法置身於外且袖手旁觀 …      跟著大人哭喊：火來了快跑...媽媽哭斷腸     健康的人體會不到疾病的破壞力 ！        當孩子遇重大家庭意外事故...     壞掉的大人，受傷的孩子",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260114143116307",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260114142734019.png",
+        "date_range": "2026/01/14 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 9,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "老五老基金會",
+        "title": "【邊緣戶】生活守護計畫",
+        "description": "有些長輩，剛好介於需要幫助的邊緣 在服務中，我們常遇見一群長輩，他們年紀漸長、身體逐漸退化，也需要居家服務、送餐或日間照顧等支持，但因為沒有低收入或中低收入等社福身分，仍需要自行負擔部分費用。 對這些長輩而言，生活原本就不寬裕，只要身狀況變差、醫療費增加，或家庭支持不足，持續使用服務就會變得困難。 然而，這些服務往往正是長輩維持日常生活的重要支持。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260318140222666",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260318140055498.jpg",
+        "date_range": "2026/03/18 ~ 2026/10/31",
+        "ending_soon": false
+      },
+      {
+        "id": 10,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "『明天見』...是生存的動力『孤獨感』更是壓垮生存的希望！",
+        "description": "長者『飲食』是最直接影響身體健康的關鍵！ 常見長輩因經濟狀況不佳或生理功能衰弱，牙口狀況不佳等；一餐分多次食用或是以餅乾、醃製罐頭等食物為主要糧食，無法享有營養均衡的餐食，長期下來營養不良或導致原有的疾病加劇!  一天，十天，一個月或五個月沒跟任何人有交流...形成惡行循環。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260203004248782",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260203004038128.png",
+        "date_range": "2026/02/03 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 11,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "養牠ㄧ陣子 卻是 牠的 一輩子...",
+        "description": "『小黑』自出生就沒長眼睛 大家都叫牠“睛睛” 在宜蘭的收容所度過八個冬天了！當初在產業道路竹林中聽到哭泣聲...但聽見人卻知道人的定向，看著牠不停的揮著小尾巴令人心疼及不捨！ 至今沒人收養牠 ! 非常乖，只需要溫柔地摸摸牠...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260113000825977",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260113000505875.png",
+        "date_range": "2026/01/13 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 12,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "脊髓損傷基金會",
+        "title": "家庭照顧者的後盾",
+        "description": "一場意外讓一位母親突然成為家庭照顧者，面對女兒高位脊髓損傷後的長期照護，她曾陷入深深無助。脊髓損傷基金會透過心理支持、到宅服務與無障礙改善，陪伴傷友與家屬走過艱難時刻，重新找回面對生活的力量。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260106121114149",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260106120353161.jpg",
+        "date_range": "2026/01/06 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 13,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "四成五偏鄉兒少認為家裡跟外面一樣冷...",
+        "description": "偏鄉兒少在衣物類別中，超過三成分別在襪子、衣服與鞋子出現發霉、破損與不合身的狀況。 此外，有超過四成偏鄉兒少身上常有被蚊蟲叮咬的傷口、也有四成兒少家中常出現老鼠、蟑螂或螞蟻。 四成五的偏鄉兒少認為家裡跟外面一樣冷，三成六的孩子為了省電不開電暖器或沒電暖器可用。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260206161629210",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260206161417357.png",
+        "date_range": "2026/02/06 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 14,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "台北市視障者家長協會",
+        "title": "視障幼兒的成長不能等！支持視損早療服務",
+        "description": "我的孩子有視覺損傷，怎麼辦？他還看得到嗎？是不是就完全看不見了？會不會需要學點字？是不是得拿著白手杖走路？我想知道，他眼中的世界，會是什麼模樣……  照顧視障幼兒的焦慮與困惑，台北市視障者家長協會(PAVI)都知道。  PAVI陪伴全台灣上千個視障家庭走過20個年頭，提供視障幼兒完整的早期療育服務，奠定全面性身體功能發展，並提供家長所需之教養知識，成為家長最堅強的後盾。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260115102956316",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260115102541629.jpg",
+        "date_range": "2026/01/15 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 15,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "微客公益行動協會",
+        "title": "【熊愛做公益】陪伴台灣弱勢孩子",
+        "description": "微客相信，每個孩子都應擁有食物、遊戲、受教育與被愛的權利。 我們推動「拯救童年計畫」與多項服務，扶助台灣偏鄉及弱勢家庭的孩子，提供教育、醫療、營養與生活支持，透過穩定就學、深耕服務、多元教育與社區發展，讓孩子在困境中也能安心前行。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250708112245679",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251212103542155.jpg",
+        "date_range": "2025/07/08 ~ 2026/06/30",
+        "ending_soon": false
+      },
+      {
+        "id": 16,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "”吃飽”是基本的需求卻有弱勢人群...",
+        "description": "每人每年平均浪費 170 kg 的食物近 6 成來自消費端，等同於每人每天平均浪費約 285 克的食物量、相當於 3 個超商三角飯糰。新年期間聚餐甚多可能又倒掉些...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260114173838498",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260114173510459.png",
+        "date_range": "2026/01/14 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 17,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "福氣社區關懷協會",
+        "title": "《讓陪伴走進家門，讓夢想被看見》——福氣金孫 × 舒適照顧 × 藝術共融 勸募計畫",
+        "description": "本計畫由社團法人台灣福氣社區關懷協會推動，以「舒適照顧 × 福氣金孫 × 藝術共融」為核心，陪伴長輩、身心障礙者與家庭在熟悉的社區中安心生活。透過專業到宅照顧，減輕家庭照顧壓力；結合智能障礙青年參與到宅陪伴與社區服務，促進雙向成長；並以自我倡導與藝術共融行動，讓能力被看見，打造溫柔且可持續的在地照顧支持網絡。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260108140051508",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260205140712491.png",
+        "date_range": "2026/01/08 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 18,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "喜憨兒基金會",
+        "title": "平凡專注的力量，成就憨兒工作自信｜工作訓練計畫",
+        "description": "你花過最長時間學習一項技能是多久？對於心智障礙者而言，每一項新事務的學習，都必須投注比別人多兩三倍的時間與精力。而這份付出與努力在就服員與社工的陪伴下，不僅不孤單，還多了一份穩定的力量。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260312164127894",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260312164023470.jpg",
+        "date_range": "2026/03/12 ~ 2026/05/11",
+        "ending_soon": false
+      },
+      {
+        "id": 19,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "私立盲人重建院",
+        "title": "【職業重建】黑暗谷底的重生計畫!",
+        "description": "重建院每年開辦丙級按摩養成班，提供視障按摩訓練課程，吃、住、師資完全免費，為使我們的服務不中斷，需募集視障老師講師鐘點費。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251219094722029",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251219094547390.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 20,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "喜憨兒基金會",
+        "title": "成長練習曲｜喜憨兒母親節送愛到部落 偏鄉蛋糕募集計畫",
+        "description": "一份母親節蛋糕，陪伴喜憨兒工作訓練，也讓偏鄉家庭多一份團聚的甜。 在古典音樂裡，練習曲，原本為了鍛鍊而寫， 卻在反覆練習中，長成能站上舞台的動人樂章。 今年母親節，邀您一起參與偏鄉蛋糕募集行動 幫助喜憨兒在庇護工場穩定練習工作技能、累積自立能力， 陪伴偏鄉孩子練習分享愛與生活，與家人共度暖心時刻。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260311135830843",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260311135652976.jpg",
+        "date_range": "2026/03/11 ~ 2026/04/24",
+        "ending_soon": false
+      },
+      {
+        "id": 21,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "經濟脆弱---折翼天使悲傷的兩三事...",
+        "description": "家庭經濟條件脆弱，對即將要上小學的小美而言，因為無法承擔代價高昂的活動義肢費用，所以一直都沒有裝配過可活動多處關節的假肢，讓 小美對上學這件事不免感到驚慌與害怕。  無法像其他的小孩子一樣活躍自由的玩耍和做事。讓他常常感到孤獨和自卑。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260211142311301",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260211142033267.png",
+        "date_range": "2026/02/11 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 22,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "肯愛服務協會",
+        "title": "孩是要吃飽~偏鄉脆弱兒飽餐計畫",
+        "description": "常常是有時沒吃飽，有時隨便吃的小亭，上課時每次肚子咕嚕咕嚕叫，總是讓他沒辦法專心，因為全家只靠爸爸打零工勉強支撐，所以三餐常是營養不足。偏鄉脆弱兒飽餐計畫，讓小亭不只是吃飽也吃好，讓脆弱家庭的孩子們上課肚子不再咕嚕叫。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250716101906041",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251210143120230.jpg",
+        "date_range": "2025/08/01 ~ 2026/07/31",
+        "ending_soon": false
+      },
+      {
+        "id": 23,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "基督徒救世會基金會",
+        "title": "想玩，卻不知道怎麼開口的多多",
+        "description": "從幼兒園到啟蒙課程，從家庭到醫療資源，一次次銜接照顧，看見發展遲緩孩子一點一滴的進步。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260205152128494",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260205151946967.jpg",
+        "date_range": "2026/02/05 ~ 2027/01/31",
+        "ending_soon": false
+      },
+      {
+        "id": 24,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "癌症基金會",
+        "title": "守護癌症家庭笑容",
+        "description": "當一個人確診癌症時，受到衝擊的，從來不是只有他——而是整個家。 從確診那天起，醫療決定、治療副作用、經濟壓力、生活照顧、心理煎熬…… 每個挑戰，都在消耗一個家庭的力量。 台癌針對癌症旅程不同階段，提供及時協助與介入，包括醫護衛教、心理諮商、營養諮詢、就醫交通補助等，幫助提升癌症家庭生活品質。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260305144954275",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260305144703231.png",
+        "date_range": "2026/03/10 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 25,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "街頭求生，不慎喪命於意外...",
+        "description": "環保局清潔隊負責檢視路倒的貓狗，動保處人員接續驗屍、掃晶片流程的分工方式，不僅讓尚有氣息的貓狗，獲得了救治機會，有晶片的家貓家犬遺體也能送還飼主，環保局統計71隻路倒狗中22隻植有晶片，736隻路倒貓中120隻有晶片，由動保處聯絡飼主領回。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260211163847100",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260211163514025.png",
+        "date_range": "2026/02/11 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 26,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "展翅協會",
+        "title": "陪伴性剝削兒少的復原路",
+        "description": "十二歲的小芸在網路上認識一位「朋友」，單純的她把秘密交給了對方，才發現自己陷入了一場騙局。 您的捐款將支持展翅協會提供：受害兒少緊急協助與心理輔導、協助性影像移除、法律與社會資源協助與家庭支持服務",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260105102401819",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260105102435519.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 27,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "勵馨基金會",
+        "title": "【多陪一里路計畫】受暴婦幼生活重建，需要您相挺",
+        "description": "關於勵馨 勵馨於1988年由一群基督徒因關心台灣少女被人口販運之議題而成立，30多年來，從少女中途之家到擴展家暴、性侵等性別暴力服務，目前在全國15個縣市有50餘個服務據點，每年服務近兩萬名性別暴力倖存者脫離暴力影響，展開新生活。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251231151814638",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260106114138094.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 28,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "對受難的動物⋯⋯伸出援手",
+        "description": "在人來人往的路上，鮮少有人願意看一眼倒在地上的狗狗貓貓...對受難的動物⋯⋯伸出援手，人生際遇大不同...毛孩也是。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260106161118421",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260106160938211.png",
+        "date_range": "2026/01/06 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 29,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "展翅協會",
+        "title": "讓愛展翅 溫暖童行",
+        "description": "邀請您成為展翅的後盾，協助我們更有力量，穩定且持續地投入兒少服務工作，守護兒少健康快樂長大！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260105104353988",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260105104157498.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 30,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "老五老基金會",
+        "title": "【陪同購物】支持長輩自主選擇",
+        "description": "有些長輩，只需要有人陪他去買東西。 對多數人來說，到市場或超市買東西，是再平常不過的日常。但對一些長輩，卻十分困難。 行動不便、交通距離遠，或缺乏陪伴與協助，都可能讓長輩逐漸減少外出的機會，也失去自己選擇生活用品的機會。 透過陪同購物計畫，志工陪伴長輩外出，讓長輩在安全環境下，重新走出家門，挑選需要的物品。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260318153323978",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260318151636873.jpg",
+        "date_range": "2026/03/18 ~ 2026/10/31",
+        "ending_soon": false
+      },
+      {
+        "id": 31,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "私立盲人重建院",
+        "title": "【生活重建】讓EYE向前走，邁出自己的一片天!",
+        "description": "失去視力，伴隨而來的是20種能力的喪失!透過堅定的信念，專業訓練與不斷反覆地練習，這些失去的，能夠一一回復~提供全方位的生活重建服務，協助視障者恢復生活自理能力，減少對於家庭及社會的倚賴、降低家庭照顧負擔及社會成本、提升視障者社會參與能力。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251219094300952",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251219094125430.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 32,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "健康的人體會不到疾病的破壞力 ！",
+        "description": "我們一起負重，就不會那麼重了!     我們的角色就是在陪伴病人與家屬一起面對因治療疾病時而遇到的一些挑戰，包括{經濟問題}、{照顧人力問題}、{社會福利諮詢}，或是協助{整合病家的資源}等",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260202204240209",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260202203925326.png",
+        "date_range": "2026/02/02 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 33,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "台北市愛慈基金會",
+        "title": "創傷修復力",
+        "description": "深夜裡，多數孩子已睡熟，愛慈的燈卻還亮著。毒害寶寶與心智發展障礙兒少，常被惡夢與戒斷反應驚醒...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260202172100642",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260202171744578.png",
+        "date_range": "2026/02/02 ~ 2026/05/05",
+        "ending_soon": false
+      },
+      {
+        "id": 34,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "喜憨兒基金會",
+        "title": "第二人生｜喜憨兒安心照顧計畫",
+        "description": "第一人生的我們沒有選擇，只管勇敢前行；第二人生，我們可以選擇攜手相伴，在愛與希望中，微笑面對嶄新的可能。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251230144145329",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251230143831319.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 35,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "「巨瘤如籃球」險撐破肚」！",
+        "description": "無辜黃金獵犬遭狠心遺棄！ 怎會有這麼惡質的主人！一隻腹部有巨瘤的黃金獵犬，一名女子送到動物醫院，稱在海邊撿到這隻狗。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260106151759372",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260106151539301.png",
+        "date_range": "2026/01/06 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 36,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "落葉歸根，助亡者完成遺願",
+        "description": "回家是簡單的辭彙卻是有些人痛的遺憾。台灣平均每年通報受理近三萬起失蹤人口，兩百多起無名屍被發現 。   生死是人生大事，但不少經濟弱勢者走到人生終點，有的因孑然一身，有的是家人無力安葬，造成近年「慈善送終」數量增加。民間協助捐棺、安葬的慈善團體感受最深...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260102012551890",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260102012247374.png",
+        "date_range": "2026/01/02 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 37,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "基督徒救世會基金會",
+        "title": "阿美癌症四期，忍著不適為孩子努力跑外送",
+        "description": "在病痛與生活重擔之間，阿美選擇為孩子努力打拼每一天。每一筆愛心捐助，能接住像阿美一樣的家庭照顧者，有力量繼續陪伴孩子安心成長。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260205144942354",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260205145109755.jpg",
+        "date_range": "2026/02/05 ~ 2027/01/31",
+        "ending_soon": false
+      },
+      {
+        "id": 38,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "展翅協會",
+        "title": "協助影像性暴力受害者",
+        "description": "影像一旦被散布，驚恐、自責與傷痛，將糾纏多年。 何時？哪裡？是誰？怎麼會？ 當被通知偷拍時，女孩原本熟悉的世界瞬間崩塌，恐懼和不安全感壟罩了全身。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260105102846973",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260105102539071.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 39,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "基督徒救世會基金會",
+        "title": "爸爸傷病不斷，媽媽快撐不住這個家",
+        "description": "當生活的考驗接踵而來，弱勢家庭需要持續性的援助，才有機會度過低谷，慢慢走向復原。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260205151135556",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260205150958713.jpg",
+        "date_range": "2026/02/05 ~ 2027/01/31",
+        "ending_soon": false
+      },
+      {
+        "id": 40,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "微客公益行動協會",
+        "title": "生日快樂捐 為資源不均的孩子獻上愛",
+        "description": "微客致力於陪伴這群孩子適應新生活 讓他們相信世界上依然有愛 為了讓孩子重拾對生日的期待 當他們獲救來到庇護所的第一天 便成了他們慶生的日子",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260306164402726",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260306164154582.jpg",
+        "date_range": "2026/03/06 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 41,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "大心協會",
+        "title": "幫助弱勢家庭兒少—讓愛擴散",
+        "description": "台灣大心長期關注社會弱勢家庭，積極協助性侵害案件的受害者、目睹家庭暴力的兒童及少年、高風險家庭、低收入、中低收戶家庭，藉由社會工作專業並結合各種社會資源，讓他們可以在充滿「溫暖包容」、「接納同理」、「體貼關懷」及「安心」的環境中逐漸穩定、復原，找到繼續向前努力的力量。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260113160739253",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260113155614597.jpg",
+        "date_range": "2026/01/13 ~ 2026/06/30",
+        "ending_soon": false
+      },
+      {
+        "id": 42,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "普仁青年關懷基金會",
+        "title": "拉他一把，讓孩子的天賦被看見│育成計畫",
+        "description": "我們希望讓這些具企圖心及發展潛力的弱勢孩子，不因缺少資源而被埋沒，以系統性的課程培育其領導、就業與競爭能力，使其成爲社會中堅，進而回饋社會，形成善的循環。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260108102005062",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260108101730558.jpg",
+        "date_range": "2026/01/08 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 43,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "展翅協會",
+        "title": "送愛天使－守護兒少的成長之路",
+        "description": "兒少上網安全需要你我共同守護，成為「送愛天使」幫助受傷的兒少踩穩復原的每一步，同時守護我們的兒少健康快樂的長大。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260105104042984",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260105103631837.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 44,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "老五老基金會",
+        "title": "【助老安居】居家生活改善計畫",
+        "description": "一個安全的家，是安心生活的開始 對多數人而言，家是最熟悉、最安全的地方。 但有些長輩的住家，老舊或缺乏維護的居住環境，潛藏著許多危險。 昏暗的燈光、老舊電線、漏水屋頂、沒有熱水的浴室⋯，這些看似微小的問題，可能在日常生活中帶來跌倒、觸電或受寒等風險。 老五老透過居家修繕與生活環境改善服務，協助長輩改善居住安全，讓他們能在熟悉的家中安心生活。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260318155702689",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260318155216864.jpg",
+        "date_range": "2026/03/18 ~ 2026/10/31",
+        "ending_soon": false
+      },
+      {
+        "id": 45,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "當腰彎的快站不直時... ㄚ嬤的汗水與淚水",
+        "description": "有人月入6仟多養中風兒    有人月入5仟多多養不負責任子女留下來的幼子    有人月入7仟多多支付不肖子孫的債務，只為保全一個家",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260109163126235",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260109162812253.png",
+        "date_range": "2026/01/09 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 46,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "跟著大人哭喊：火來了快跑 ...",
+        "description": "每一個 『傷／亡』的背後承載了多重的心情？    是一個破碎的家庭    是一個夜裡哭泣的父母（或配偶，孩子）   是一個終生殘疾的人士",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260309021821769",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260309021325435.png",
+        "date_range": "2026/03/09 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 47,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "勵馨基金會",
+        "title": "【歲末傳愛】點亮團圓夜 讓祝福延續",
+        "description": "每一年，勵馨基金會都在愛馨人的捐款幫助中，陪伴上萬名身處暴力危機的婦女與兒少降低暴力風險、離開暴力環境。  年末將至，我們邀請您一起加入【歲末傳愛】行動。為勵馨基金會關懷的婦女兒少，送上一桌熱騰騰的年菜與一份紅包。讓他們在團圓的節日裡，也能暖心圍爐享年菜，在祝福中迎接新的一年。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251231141602831",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260106113036737.png",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 48,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "可不愛我！別傷害我！我活的很苦...",
+        "description": "可以不愛我！請別傷害我！我活的很苦...  板橋區驚傳虐貓棄屍案！7隻幼貓疑似遭人虐殺後棄置馬路旁，引發外界撻伐。新北市警方和動保處聯手追查，持拘票將他拘提到案，並在其住處救出1多隻幼貓。儘管謝嫌極力否認虐貓，僅稱「養不下去才棄養」，但解剖顯示遭到嚴重鈍器傷。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260102010334160",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260102005940465.png",
+        "date_range": "2026/01/02 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 49,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "台北市視障者家長協會",
+        "title": "支持視障調香就業培訓計畫",
+        "description": "提到視障者從事的工作，很人都會回答：按摩師。 生活經驗中，生活經驗中，在車站、大賣場、甚至公司內都看得見視障按摩師的服務據點。  但我們有沒有想過，視障者能做的不只有按摩？ 每位視障者都是獨立的個體，擁有獨一無二的特質，他們是否有不同的發展可能呢？",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260115111534050",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260115111206704.jpg",
+        "date_range": "2026/01/15 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 50,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "不能選擇父母 ! 但可選擇自己的人生 !",
+        "description": "助小媛及弟弟申請『愛發光』助學金，除了減輕阿嬤肩上的重擔，小媛及弟弟也有機會翻轉自己的未來，改變命運。 雖然每年都有因\"大人\"不同因素的小媛”們”需要我們協助...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260224162059203",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260224161850438.png",
+        "date_range": "2026/02/24 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 51,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "唐氏症關愛者協會",
+        "title": "痛仍要堅持下去",
+        "description": "孩子哭著、掙扎著，每一次練習，都不是一件容易的事。 但對唐氏症家庭來說，這樣的日常，卻一天天重複著。  痛，仍要堅持下去。 不只是孩子在努力，也是整個家庭在陪著走。  邀請您支持唐寶寶健康照護計畫，陪他們撐過每一次成長的關卡",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260318092856404",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260318092505976.png",
+        "date_range": "2026/03/18 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 52,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "勵馨基金會",
+        "title": "【收出養家庭服務計畫】幫助小腳ㄚ 找到愛的家",
+        "description": "關於勵馨 勵馨於1988年由一群基督徒因關心台灣少女被人口販運之議題而成立，30多年來，從少女中途之家到擴展家暴、性侵等性別暴力服務，目前在全國15個縣市有50餘個服務據點，每年服務近兩萬名性別暴力倖存者脫離暴力影響，展開新生活。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251231170140460",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260106114050050.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 53,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "得勝者教育協會",
+        "title": "營會活動-  「反毒者聯盟-防毒體驗營」、「財商活動」",
+        "description": "為加強青少年對藥物濫用危害的認知，建構正確的金錢觀、美好的價值觀，得勝協會編撰反毒及財商營會活動，透過體驗教育引導反思，協助青少年切瞭解毒品危害及金錢觀重要，進而擁有真正富足的人生。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250716152021659",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209170917507.png",
+        "date_range": "2025/07/17 ~ 2026/06/24",
+        "ending_soon": false
+      },
+      {
+        "id": 54,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "兒童抗癌難關--肢體保留手術",
+        "description": "骨肉瘤好發兒童及青少年，罹患骨骼肌肉腫瘤的病人需長期照顧與復健，除醫療照護外身、心、靈方面更需要特別的關懷，為讓全台遠到就醫的骨腫瘤患者和父母能有一個暫時喘息的空間...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260309163104732",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260309162740540.png",
+        "date_range": "2026/03/09 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 55,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "台北市失親兒基金會",
+        "title": "【陪他成長 轉動未來 - 助學金計畫 】",
+        "description": "不只是一筆金錢的幫助，是成為孩子們穩定的後盾，更是一份長期的關心與陪伴。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260106162645395",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260106161913926.png",
+        "date_range": "2026/01/06 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 56,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "微光協會",
+        "title": "守住幸福的微光—身心障礙者支持計畫",
+        "description": "中華民國微光社會福利協會致力於服務身心障礙者，了解遭遇意外改變而成為身障者時的無助，透過需求評估幫助身障者連結全方面的資源，經濟、心理、就學、就醫、就業或輔具資源，並關心其家庭成員，社工在家訪時除了提供與媒合其他社會資源，讓給予服務個案支持與關懷，並增加他們與外界社會連結、互動的機會，讓身障者能重新自立，正向積極的面對未來的生活。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260113155102182",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260113154149950.jpg",
+        "date_range": "2026/01/13 ~ 2026/06/30",
+        "ending_soon": false
+      },
+      {
+        "id": 57,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "肯愛服務協會",
+        "title": "愛要即食-米飯香廚房補助計畫",
+        "description": "很難想像61歲的阿嬤，每天靠當大樓的清潔工的收入，卻要養活全家人。小絜的阿嬤，隔代獨力扶養爸媽缺席的小絜，加上生病的阿公和大伯，全靠阿嬤洗洗刷刷過日子，阿嬤說:吃一頓算一頓的日子習慣了。肯愛廚房生扶金計畫，你的肯愛讓廚房有愛有米飯香。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250716094116308",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251210141939016.jpg",
+        "date_range": "2025/08/01 ~ 2026/07/31",
+        "ending_soon": false
+      },
+      {
+        "id": 58,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "肯愛服務協會",
+        "title": "菲菲媽的第二次微笑",
+        "description": "菲菲媽多年前，面對惡性甲狀腺腫瘤，從手術、化療、到回診，那種病痛的恐懼與身體的虛弱，讓她學會把所有不安藏進笑容裡，光是要走出來、尋找陪伴，都是多麼的困難。「學著忘憂」工作坊肯愛協會憂友彼此陪伴找路的支持團體，您的肯愛，讓絕望變成希望。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250715131713677",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251210132021695.jpg",
+        "date_range": "2025/08/01 ~ 2026/07/31",
+        "ending_soon": false
+      },
+      {
+        "id": 59,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "微客公益行動協會",
+        "title": "台灣弱勢孩童 數位培力",
+        "description": "微客在台灣的服務以「陪伴不中斷」為核心理念，提供孩子們豐富的數位學習資源與正確的使用觀念。  以「數位素養培育」為目標，輔以志工多元化的技能和專業知識，透過不間斷的陪伴和支持，確保孩子們透過參與微客的服務，在身心靈和數位素養上全方位的成長。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20241231095241872",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251212094738529.jpg",
+        "date_range": "2025/01/01 ~ 2026/06/30",
+        "ending_soon": false
+      },
+      {
+        "id": 60,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "癌症希望基金會",
+        "title": "看見希望 迎向癌後人生新篇章",
+        "description": "癌症從不只是病人的事，而是一場全家人的生存挑戰。在治療的震盪中，我們不讓癌友與家屬孤軍奮戰。透過即時的醫療諮詢、經濟支持與心理導航等行動，我們織起一張專業防護網。邀請你成為這股力量，與我們並肩守護每個抗癌家庭，讓希望在困境中重新續航！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260306154049030",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260306154045972.jpg",
+        "date_range": "2026/03/06 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 61,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "台北市失親兒基金會",
+        "title": "【愛在行動 失親兒我挺你】",
+        "description": "我的媽媽不在了，誰能幫助我們呢? 全台超過5480位的失親兒，在求學路上，急需您的支持與陪伴。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260106160325226",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260106161200174.png",
+        "date_range": "2026/01/06 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 62,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "勵馨基金會",
+        "title": "【青少女安置家園】女孩的幸福中繼站",
+        "description": "勵馨基金會從1988年開辦第一個少女安置家園「勵馨園」，一直以來致力於提供少女們一個療育與成長的環境，讓這些少女即使離開家，也能夠感受到家的溫暖，並能受到良好的生活照顧與培養自立生活能力，幫助她們走出創傷，重拾自信，邁向未來。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260106123423792",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260106122906017.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 63,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "肯愛服務協會",
+        "title": "五分之三的痛與百分百的愛",
+        "description": "很難想像，小璇一家五口有三人罹患遺傳性骨瘤。長年失去行動能力的爸爸，臉部肌肉失控、無法順利進食與說話的哥哥，以及連走路都疼痛的小璇，照料全家又只能靠打零工的小璇媽說:有時候我真的覺得沒有辦法。 肯愛協會需要您一起，為沒有辦法的脆弱家庭找辦法。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251229102135578",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251229101936177.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 64,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "私立永信基金會",
+        "title": "用教育的力量，洗去生活的重量",
+        "description": "一份捐款，就是一次被細心呵護的沐浴； 一次支持，就能為一個家庭帶來安心與尊嚴。 誠摯邀請您，一起成為這份溫暖的力量。 您的每一筆捐款，將用於支持到宅沐浴服務的人力派遣、專業設備與服務行程，陪伴更多弱勢家庭，在寒冬與歲末之際，不再為「洗澡」而煩惱。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260202172652133",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260202172355473.jpg",
+        "date_range": "2026/02/02 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 65,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "肯愛服務協會",
+        "title": "除了服藥，她用畫說出心中話",
+        "description": "小璇喜歡畫畫，卻因媽媽孕期服用精神科藥物，影響了小璇記憶力，常坐不住、難以專注，需長期服藥穩定狀況。來自脆弱家庭的她，參加肯愛的工作坊，用畫筆表達情緒，也慢慢學會與人建立連結，透過肯愛的陪伴與支持，成為孩子可以放心參與、安心成長的起點。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250716094711879",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251210142637250.jpg",
+        "date_range": "2025/08/01 ~ 2026/07/31",
+        "ending_soon": false
+      },
+      {
+        "id": 66,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "台北市視障者家長協會",
+        "title": "【視障閱讀】給他鑰匙，打開知識寶箱",
+        "description": "一起為視障幼兒提供更多探索世界的機會，好不好？  在我們接觸的個案中，熱愛閱讀的孩子很多，尤其閱讀點字書時特別專注。 但是書的種類有限，不是想讀就能取得！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260115114823166",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260115114742125.jpg",
+        "date_range": "2026/01/15 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 67,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "步調雖緩慢...卻走的堅定 !",
+        "description": "兒少義肢的汰換，特別是6-16歲(因為生長速度較快) 承筒尺寸若不合宜容易有摩擦，破皮狀況...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260303005008006",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260303004746537.png",
+        "date_range": "2026/03/03 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 68,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "伸援手---助渡過酸苦的這條河！",
+        "description": "也許沒好出生 也許沒專屬的愛 也許沒施愛的模仿對像~  ...但我們需應援我們的孩子，除增加社工探訪次數外，擁有條件更好，更完善的『寄養家庭』制度才能避免被虐死的『剴剴』等案重演，令人痛心...因為他們從來沒有專屬的愛，沒有施愛的模仿對像,,,小心翼翼的觀察，不安甚至猜忌惶恐的渡過童年生活。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260205171215561",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260205170813991.png",
+        "date_range": "2026/02/05 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 69,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "基督徒救世會基金會",
+        "title": "堅強的阿嬤，不平靜的命運",
+        "description": "面臨重大變故，讓原本就脆弱的家庭瞬間陷入困境...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260205152600278",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260205152252477.jpg",
+        "date_range": "2026/02/05 ~ 2027/01/31",
+        "ending_soon": false
+      },
+      {
+        "id": 70,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "展翅協會",
+        "title": "印愛而生－助少女展翅自立",
+        "description": "從自立開始扭轉人生！捐款協助弱勢少女建立自立生活能力，包含 ❤ 安全住宿❤ 穩定就學就業❤ 建構經濟獨立能力❤ 創傷復原與生活整合❤ 發展社會重要關係與參與",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260105103452881",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260105103018218.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 71,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "台北市視障者家長協會",
+        "title": "一路平安--白手杖募集計畫",
+        "description": "出生到圓夢、出門到登頂，我只有一個祈願：一路平安",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260115101602368",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260115101405275.jpg",
+        "date_range": "2026/01/15 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 72,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "生命平權 - 動物救援與安置",
+        "description": "『大黑』自出生就沒長眼睛 我們都叫牠 “睛睛” 在宜蘭的收容所度過八個冬天了！是在產業道路竹林中聽到哭泣聲...至今沒人收養牠 ! 但非常乖，牠只需要溫柔地摸摸牠...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260120150223626",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260120145751331.png",
+        "date_range": "2026/01/20 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 73,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "肯愛服務協會",
+        "title": "這裡有飯，也有等媽媽的伴",
+        "description": "阿鳳與媽媽相依為命，媽媽為了生活早出晚歸，放學後的阿鳳不知道要去哪裡等媽媽回家，幸好有海端肯愛書屋，讓阿鳳能和夥伴一起寫功課、吃晚餐。讓阿鳳能在書屋安心等待媽媽回家，阿鳳說：「書屋很溫暖，還有飯吃」書屋陪伴孩子成長，也等待你的支持與捐助。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251124132251933",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251210144801845.jpg",
+        "date_range": "2025/12/01 ~ 2026/07/31",
+        "ending_soon": false
+      },
+      {
+        "id": 74,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "介惠慈善基金會",
+        "title": "愛相挺｜婦女加力．幸福永續",
+        "description": "在偏鄉， 近五成家庭照顧者在中高壓力下生活。 九成已進入中高齡， 超過六成同時背負工作與照顧責任。 其中，多數為女性。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260305140338802",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260311160658714.jpg",
+        "date_range": "2026/03/05 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 75,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "能繼續唸書是一種非常幸福的事..",
+        "description": "爸媽到大都市工作了！我跟重聽的ㄚ嬤一起生活，我下課後必需幫忙丫嬤，因為要收攤幫忙提著沒賣完的菜和水果回家... 還好我有一隻“小黑“的狗牠一直陪著我,我每天下課都會把學校和菜市場所發生的事和牠分享...  平常我想不通的問題；聰明的小黑也不會回答...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260301191041950",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260301190537067.png",
+        "date_range": "2026/03/01 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 76,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "喜憨兒基金會",
+        "title": "烘焙第一課 - 喜憨兒工作訓練計畫",
+        "description": "這不只是烘焙課，更是憨兒翻轉生命的起點。從學習秤重到掌握發酵，喜憨兒基金會藉由全台支持網絡與專業輔助，將麵糰香氣轉化為職涯自信。誠摯邀請您支持「烘焙第一課」，讓每一份汗水都能被看見、被接住，陪伴他們從被照顧走向穩定自立的未來。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260311135557875",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260311135416417.jpg",
+        "date_range": "2026/03/11 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 77,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "肯愛服務協會",
+        "title": "他從來不敢說他想念媽媽",
+        "description": "小宇自從媽媽離開後，家裡就只剩下他和罹患多發性腎囊腫的爸爸了，患有亞斯伯格症和ADHD的小宇，在家裡，有時肚子餓也不敢說，在學校，小宇常常覺得沒有朋友，所以當他第一次在分享心情時，爸爸的眼眶紅了。 陪伴發展障礙的弱勢兒童，您的支持，讓小宇找到朋友。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250715130545396",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251210130411276.jpg",
+        "date_range": "2025/08/01 ~ 2026/07/31",
+        "ending_soon": false
+      },
+      {
+        "id": 78,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "能重做一肢腳嗎？",
+        "description": "(孩子）這裡轉不動 ！怪怪的 ! （大人）呃...可以！費用再跟你大人說 ... 你的家人，還有哪些？   （孩子）我就跟ㄚ嬤一起住。   （大人）你的ㄚ嬤有工作嗎？   （孩子）沒有，但回收有錢   （大人）在醫院或復健中心有認識的朋友嗎？    （孩子）有，我跟小翔最好，他跟我一樣沒有跟爸爸一起住， 送完外送會買冰其淋，超羨慕的！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260225161801088",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260225161533385.png",
+        "date_range": "2026/02/25 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 79,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "你讓毛孩因此而重生...願意幫助牠們被「愛」",
+        "description": "「酗酒」「吸毒」像魔鬼般纏上他，讓他性格改變，不但讓他開始虐待家中動物，還連曾經心愛的貓也不放過。在施虐程度一再升高的情況下，終於把貓吊死在樹上...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260210172809990",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260210172540282.png",
+        "date_range": "2026/02/10 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 80,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "肯愛服務協會",
+        "title": "媽媽我的腳怎麼睡著了",
+        "description": "很難想像曾經能跑能跳的孩子，如今走不到十公尺就可能跌倒；九歲的小益，確診為罕見疾病「漸凍症」之後，蹲下站起都困難重重。這個家正承受著經濟與疾病的雙重壓力，肯愛協會正在幫需要醫療補助的部落兒童，您的幫助讓希望的路多走一步。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260316140555586",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260316140415614.jpg",
+        "date_range": "2026/03/16 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 81,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "微客公益行動協會",
+        "title": "建造勇氣基地，讓蒙古國的孩子安心被愛",
+        "description": "微客在艾爾登特（Erdenet）的服務據點-兒童學習中心，如同小小的庇護所，讓孩子們能在課餘時間來念書之外，也增加了與接觸外界的機會，在微客志工可以陪伴孩子的有限時間中，希望能提供孩子們足夠面對現實世界的勇氣與信心。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250220144530718",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251212102805258.jpg",
+        "date_range": "2025/02/20 ~ 2026/06/30",
+        "ending_soon": false
+      },
+      {
+        "id": 82,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "愚人之友慈善基金會",
+        "title": "厚熊照顧咖啡館",
+        "description": "「厚熊笑狗」取自於台語「互相照顧」的諧音，厚熊的理念串聯起個人與個人、世代與世代、社區與社區，讓你我都知道如何照顧與被照顧，牽起社區的每一雙手，編織成巨大的防護網接住有需要的人。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250901084250604",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209164126379.jpg",
+        "date_range": "2025/09/01 ~ 2026/05/31",
+        "ending_soon": false
+      },
+      {
+        "id": 83,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "（）安寧照顧基金會",
+        "title": "您的支持，讓生命在最後一段路不留遺憾",
+        "description": "生老病死是人必須經歷的生命階段，但除了生之喜外，老病死所帶來的皆是痛苦與悲傷。安寧照顧基金會30多年來推動的安寧療護，即是強調「與病人同苦」，以專業支持協助病人維護生命末期的舒適、尊嚴與醫療自主，也伴家屬走過低谷，重回人生軌道，達到生死兩相安。  本會透過持續不斷的各式活動打破民眾對於談論死亡的忌諱，進而提早思考生命末期的選擇，並與家人充分溝通，為自己及摯愛的家人預做道別準備，避免來不及的遺憾。  在生命的最後階段，尊嚴和安寧對每個人都至關重要，雖然高強度的急救措施能挽救生命，但有時卻會增加末期病人的痛苦。尤其弱勢病家除了面對病痛外，還需大量承擔醫療、看護、生活或喪葬等費用。因此，安寧照顧基金會提供近貧病家醫療、急難救助、喘息服務、安寧居家交通、喪葬費用補助等，並以影片、藝術治療等輔材落實死亡教育並提供悲傷輔導。懇請您幫助他們，讓末期病家能在生命的最後時刻感受到溫暖和愛。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251230141112561",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251230163355537.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 84,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "聚焦『緊急情況救助』 及時有效援助",
+        "description": "隨機殺人案....受害者  颱風重創蘇澳！連夜搶救居民 ：分不清是雨是汗還是淚  花蓮洪水止不住！繼續往北漫淹...  爸爸因捷運施工意外走了...小如那天滿十二歲,媽媽是腦麻人  倆老唯一的兒子走了...是自縊。是我沒教好讓他夠堅強...對不起！  生活必需品.  醫療救助.  住房援助.   生活方面的支援.  未成年兒少教養經費喪葬費用補助等等",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260127022309002",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260127021906452.png",
+        "date_range": "2026/01/27 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 85,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "台北市視障者家長協會",
+        "title": "為Eye點燈支持視障者自主閱讀的權利",
+        "description": "「沒關係，有就好。」 簡簡單單六個字，說盡視障朋友過去幾十年的委屈。以往礙於人力缺乏和不成熟的技術，想要閱讀一本自己想看的書，竟是如此困難。申請重製點字書，卻要相隔86,400分鐘才有機會拿到，內容還有所缺漏。最讓人心疼的是，圖書館數以萬冊的寶貴書籍，他們卻無法自由選擇想看的書，因為 沒 得 選 擇！他們變成教育弱勢，失去對未來的選擇。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260115103704057",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260115103531744.jpg",
+        "date_range": "2026/01/15 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 86,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "我們一起負重  就不會那麽重了 ！！",
+        "description": "許多當事人與自己的生命困境搏鬥，其中的辛苦、掙扎、沮喪、絕望、痛苦…直到接受過他人地幫助才知道，這需要勇氣及對得起的責任！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260224164855430",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260224164531612.png",
+        "date_range": "2026/02/24 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 87,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "老五老基金會",
+        "title": "【交通車募集】安心出門計畫",
+        "description": "一段能安心出門的路 出門看醫生、參加活動或到日照中心，是再平常不過的事情。但對一些行動不便或居住偏遠的長輩而言，交通卻是一道難以跨越的門檻。  有些長輩不是不想出門，而是少了一個能安全接送的交通工具。對家人而言，每天接送也可能成為沉重的負擔。當交通成為一道門檻，再好的照顧服務，也難以真正走進長輩的生活。  因此，我們希望透過募集交通接送車，讓長輩能安心出門、穩定參與照顧服務，也讓家庭照顧者多一份喘息與安心。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260319093442449",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260319093421020.jpg",
+        "date_range": "2026/03/19 ~ 2026/10/31",
+        "ending_soon": false
+      },
+      {
+        "id": 88,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "愚人之友慈善基金會",
+        "title": "改善居住環境，共築堅實家園（房屋修繕）",
+        "description": "在偏鄉服務的過程中，我們常見到許多經濟弱勢家庭的居住條件令人擔憂：冬天沒有熱水設備，長輩只能忍受冰冷的洗澡水；室內照明昏暗，日常生活如同摸黑；屋頂老舊失修，遇到颱風或暴雨時，家中到處漏水；失能長輩缺乏無障礙設施，推著輪椅一步一驚險。對我們來說，「家」應該是一個溫暖、安全、可以休息的地方，但對許多偏鄉長輩與身心障礙者而言，家卻可能藏著隨時會發生意外的風險。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250826152420242",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209163448655.jpg",
+        "date_range": "2025/08/26 ~ 2026/05/31",
+        "ending_soon": false
+      },
+      {
+        "id": 89,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "基督徒救世會基金會",
+        "title": "先生突然過世，可以幫幫我跟孩子嗎？",
+        "description": "一場變故嚴重影響晨如的家庭功能，這也是許多弱勢婦幼家庭的真實處境。邀請您成為婦幼家庭的守護者，幫助他們度過困境，並再有能力守護自己的家。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260205150216696",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260205150255092.jpg",
+        "date_range": "2026/02/05 ~ 2027/01/31",
+        "ending_soon": false
+      },
+      {
+        "id": 90,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "NPOchannel..",
+        "title": "支持NPOchannel",
+        "description": "「一束花的力量！」 因為一束花，找了個花瓶、整理了茶几，更明亮了整個生活環境。  NPO Channel想成為「公益圈」裡的那「一束花」。2012年6月平台上線至今，從提供募款功能出發，凝聚片段、零碎的公益需求，創造NPO彼此間連結，相互學習的環境。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20230214154312126",
+        "image_url": "https://www.npochannel.net/PIC/202302/20230214151544564.jpg",
+        "date_range": "2023/02/14 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 91,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "世界和平會",
+        "title": "《搶救危機兒》讓孩子安心學習",
+        "description": "許多貧弱孩童因為家中經濟貧困，開學繳不出學雜費、買不起書籍、文具與制服，讓孩子無法安心上學、快樂成長。世界和平會邀請您一起資助貧弱孩童，讓孩子們也能放心地學習。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250915171123985",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251211140919013.jpg",
+        "date_range": "2025/09/15 ~ 2026/08/09",
+        "ending_soon": false
+      },
+      {
+        "id": 92,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "雖『硬』『重』『痛』又『沒溫度』但我很需要它",
+        "description": "追問下，我在剛會走路的時候被滾燙的高湯倒下燙傷了！為了這事我的父母店關了也離婚了！外婆也沒有再煮過湯了...  為了讓我繼續活下去所以在醫生的建議下....截肢了... 痛,流血,磨...沒溫度",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260203010600600",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260203010213049.png",
+        "date_range": "2026/02/03 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 93,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華長照協會",
+        "title": "關懷獨居失依老人照護計畫",
+        "description": "我們認養長輩，當長輩在世界上已無任何親人可依靠。我們照顧長輩，用協會的長照專業，依照不同需求量身打造四階段照顧計畫。我們支持長輩，當長輩的經濟狀況已無法維持生活，有我們做他的靠山。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260109103830416",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260109103639434.jpg",
+        "date_range": "2026/01/09 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 94,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "媽媽好像---不記得怎麽笑了...",
+        "description": "小瑞知道媽媽要忙著賺錢，因為原來住的房子還有很多錢要繳，現在租的小房子也要給錢...媽媽也不再像從前，經常陪伴... 台灣每年有數仟位孩子因多樣的家庭意外事故...被迫起跑點即有一條粗大的貧窮線卡在手腳上。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260312152215465",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260312151953073.png",
+        "date_range": "2026/03/12 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 95,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "勵馨基金會",
+        "title": "【MeToo專業陪伴與性騷擾防治募款計畫】他們都說你想太多",
+        "description": "勵馨自2023年5至12月共服務性騷擾求助諮詢913案，服務量較前一年同期增加2-3倍，而其中隱藏黑數推估約有7-8倍。  隨著服務的開展、社工進場進行專業服務後，我們發現受害者幾乎都面臨一層又一層的傷害，創傷越深、身心狀況越形惡化。  然而經過專業的社工服務、法律諮詢及轉介諮商相關資源後，六成性騷擾受害者更清楚自身的法律權益、八成性騷擾受害者肯認自己的受傷，並開始重建具安全感的環境與關係，踏上復元之路！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260106142606759",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260106141231557.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 96,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "普仁青年關懷基金會",
+        "title": "您的捐款，幫助孩子找到自信與歸屬感│引導計畫",
+        "description": "【引導計畫】2008年服務至今 普仁支持全台學校社團，引導「高關懷學生」參與社團，從中找到學習動機與建立自信心，深化同儕合作，並提高對學校認同度。  ❤️2025年扶助國中社團21案；人數：約466人 平均一個社團贊助約20萬元的執行經費",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260108101631317",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260108101346968.jpg",
+        "date_range": "2026/01/08 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 97,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "私立盲人重建院",
+        "title": "【餐餐都有愛】募集丙級按摩班學員學習期間餐費",
+        "description": "重建院每年開辦丙級按摩養成班，提供視障按摩訓練課程，吃、住、師資完全免費，為使我們的服務不中斷，需募集學員學習期間餐點費。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251219093510933",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251219093206780.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 98,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "台北市視障者家長協會",
+        "title": "我站在這裡，多不容易！支持視障音樂創作培訓",
+        "description": "努力練習，不一定能跨越障礙 但是一倍、兩倍、三倍的努力，加上不同角度的練習，一定能讓每個人刮目相看 人生沒有輕而易舉、理所當然的勝利，對看不見還要站在台上舞，嘗試走位、演出、接詞的視障音樂人來說，必須付出比一般人更多的心力、專注與勇氣。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260115112520813",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260115112105703.png",
+        "date_range": "2026/01/15 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 99,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "愚人之友慈善基金會",
+        "title": "為偏鄉失能者，打造在地守護網（居家服務）",
+        "description": "台灣的居家服務自民國91年開始推行，由居服員到家中提供一對一的照顧服務，內容包含身體照顧與家務協助。根據衛福部統計，截至113年底，一年內有超過35萬名失能者使用居家服務，佔長照服務人數的一半，可見居家服務在失能者照顧中扮演的重要角色。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250826133449423",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209163109879.jpg",
+        "date_range": "2025/08/26 ~ 2026/05/31",
+        "ending_soon": false
+      },
+      {
+        "id": 100,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "我被領養之前的日子 ～",
+        "description": "台灣每年都有接近5千個孩子因為家庭變故、父母疾病或犯罪等而失去照護。寄養家庭可以提供像親職一樣的照顧，讓這些孩子不會失去愛的感覺，有一個溫暖和安全的家。但現實卻很殘酷，找到適合的寄養家庭越來越難；找到合適的收養家庭更是遙不可及。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260209170935824",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260209170704162.png",
+        "date_range": "2026/02/09 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 101,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "台北市視障者家長協會",
+        "title": "看不見，不代表做不到",
+        "description": "鳳凰花開、驪歌響起，畢業後的我們將開啟美麗人生的樂章，應該是對未來充滿著期待，但是對剛從學校畢業的視障者、視多障者及其家人們來說，畢業是難以言說的苦澀……",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260115100240662",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260115095820885.jpg",
+        "date_range": "2026/01/15 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 102,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "愚人之友慈善基金會",
+        "title": "服務多走一哩路，送餐到家有溫度（營養餐飲）",
+        "description": "我們致力於提供營養均衡的餐飲給弱勢族群，包括長者、身心障礙者與經濟困難家庭。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250825113143322",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209162007082.jpg",
+        "date_range": "2025/08/25 ~ 2026/05/31",
+        "ending_soon": false
+      },
+      {
+        "id": 103,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "用一份熱騰騰的便當，溫暖孤獨心，守護邊緣戶長者",
+        "description": "您的 100 元，能讓一位長輩獲得一餐溫飽與溫暖的關懷對話。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260203171908467",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260203171607572.jpg",
+        "date_range": "2026/02/03 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 104,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "老五老基金會",
+        "title": "【助老吃飽】營養送餐計畫",
+        "description": "一頓熱飯，是很多長輩一天最期待的事 每天中午，送餐車沿著城市巷弄與蜿蜒山路前行。志工把餐盒送到門口，一句：「今天還好嗎？」是長輩最期待的時刻。  對許多人來說，一頓飯只是生活裡再平常不過的事。但對一些偏遠地區或行動不便長輩而言，那可能是一天裡唯一的一餐，也是有人敲門的時刻。  老五老基金會長期為弱勢、失能與獨居長輩提供送餐服務，透過穩定的營養餐食與每日關懷，讓長輩即使在家中，也能安心生活。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260318161118923",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260318160200845.jpg",
+        "date_range": "2026/03/18 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 105,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "肯愛服務協會",
+        "title": "勇氣,寫在換腎孩子的淚光裡",
+        "description": "八歲查出腎病，如今十四歲的小潔已開始洗腎！六年來，媽媽始終堅定告訴醫生：「我要捐腎救女兒！」面對換腎的恐懼與希望，面對和生命賽跑和的耐力與勇氣！肯愛協會生病痛痛醫療基金，急需你的援手，讓急重症的孩子，在絕望中生出希望！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251229101641031",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251229101455294.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 106,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "愚人之友慈善基金會",
+        "title": "因為有你，困境變希望（急難救助）",
+        "description": "在本會長期提供長照與身心障礙服務的實務經驗中，我們發現許多弱勢民眾因經濟狀況不佳，生活中缺乏基本物資。有些人獨自居住，與家人關係疏離，每月僅能依靠微薄的政府津貼生活，還需承擔房租與醫療等費用，常常無力購買日常所需。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250825170031822",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209162951641.jpg",
+        "date_range": "2025/08/25 ~ 2026/05/31",
+        "ending_soon": false
+      },
+      {
+        "id": 107,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "勵馨基金會",
+        "title": "普發現金捐助勵馨：你能給的，比你想的更多",
+        "description": "「你手中的餘裕，正是她們未來的可能。」",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251231142714677",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260106113102223.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 108,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "老五老基金會",
+        "title": "【幸福選配】巡迴物資車計畫",
+        "description": "一輛物資車，讓長輩重新擁有選擇 在社區巷口，一輛小貨車停了下來。 車上的貨架整齊陳列著米、麵條、罐頭、餅乾與生活用品。長輩慢慢走到車邊，一邊挑選商品，一邊和志工聊天。 對許多人來說，購物是再平常不過的事情。但對偏鄉或行動不便的長輩而言，能自己選擇生活用品，其實並不容易。  老五老基金會透過巡迴物資車服務，把一間小小的「移動商店」開進社區，讓長輩在家附近就能挑選自己需要的生活物品。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260318154221562",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260318154011715.jpg",
+        "date_range": "2026/03/18 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 109,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "勵馨基金會",
+        "title": "【亞洲女孩培力計畫】EmpowerHer 她能改變未來",
+        "description": "關於勵馨 勵馨於1988年由一群基督徒因關心台灣少女被人口販運之議題而成立，30多年來，從少女中途之家到擴展家暴、性侵等性別暴力服務，目前在全國15個縣市有50餘個服務據點，每年服務近兩萬名性別暴力倖存者脫離暴力影響，展開新生活。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251231152811598",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251231152049477.png",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 110,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "微客公益行動協會",
+        "title": "【好好學習】弱勢孩童，夢想前行",
+        "description": "透過本計畫，讓他們能擁有足夠的教育所需，如文具、圖書、作業簿、數位學習設備、師資聘任、經費補助等。陪伴他們一同好好學習， 穩定成長，累積改變的希望。   服務對象   台灣 / 印度 / 尼泊爾 / 泰國 / 蒙古國 / 菲律賓 / 柬埔寨  等國家之偏遠弱勢地區孩童",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20241230170249907",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251212092903005.jpg",
+        "date_range": "2025/01/01 ~ 2026/06/30",
+        "ending_soon": false
+      },
+      {
+        "id": 111,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "安可爺奶協會",
+        "title": "好好吃，不餓著",
+        "description": "「吃的好」是活久的關鍵，但日益衰退的牙口，獨食的寂寞，無法支撐的體力與長期的支出讓許多長輩的餐桌上總看不見營養，尤其是支持系統薄弱的爺奶！ 為讓弱勢長輩也能活得久活得好，本會「生活扶助-弱老餐食包」盼您支持，讓我們將每份方便料理、好吞嚥並兼具營養的餐食包送進爺奶家，更 透過累加的問候讓他們不孤單的變老！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260303112827180",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260303111734977.jpg",
+        "date_range": "2026/03/03 ~ 2026/08/15",
+        "ending_soon": false
+      },
+      {
+        "id": 112,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "勵馨基金會",
+        "title": "【兒少助學計畫】一圓就學夢，助學弱勢童",
+        "description": "兒少脆弱處境，沒有選擇的命運  根據衛福部統計，台灣每年約有近80,000起兒少保護案件，其中有許多孩子，因為長期面對家暴、性侵、性剝削等遭遇，自幼就身處在不利於成長的失功能家庭環境中，所經歷的創傷，讓他們在人生的道路上，不斷落入脆弱的處境中，承擔著因童年逆境而造成的創傷影響風險。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260106154131201",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260106144452287.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 113,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華長照協會",
+        "title": "獨老公寓，給獨居失依長者晚年一份家的溫暖",
+        "description": "根據統計，在台灣目前350萬名65歲以上老人當中，至少有一半是獨居老人，許多人因為年齡高、行動不便、經濟條件不佳，或房東擔心老人健康不佳發生意外找不到人後續照顧或處理，因此獨居老人常是被房東排斥的拒絕往來戶，面臨租不到房的窘境，更遑論沒有家人的獨居老人。 獨居老人公寓-「永樂居」",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260109101655406",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260109101451894.jpg",
+        "date_range": "2026/01/09 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 114,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "本無憂無慮的孩子..可再度行走的笑容治癒了大家",
+        "description": "醫生口中的無能為力～孩子難承受...  全台仍有超過3600多位兒少正在努力的克服肢體障礙的困境…雖不能選擇命運但能活出好的人生！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260311192626910",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260311192320825.png",
+        "date_range": "2026/03/11 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 115,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "肯愛服務協會",
+        "title": "燈亮了，家才有溫度",
+        "description": "小云的房間總是暗暗的，為了省電媽媽只裝了小燈泡，又為了家裡的開銷，要打兩份工，老師不知道為什麼她的字總是歪七扭八。肯愛協會知道，有你幫助，讓小云的房間燈更亮，字寫得更好，肯愛協會正在為脆弱家庭的水電補助募款，燈亮了，家就有溫暖了。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250716095254066",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251210142924968.jpg",
+        "date_range": "2025/08/01 ~ 2026/07/31",
+        "ending_soon": false
+      },
+      {
+        "id": 116,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "世界和平會",
+        "title": "「急難救助」拉孩子一把、助他度過難關",
+        "description": "安定、平順的生活是多麼的可貴，邀請您愛心捐助急難救助方案，協助服務家庭度過生活中突然驟變的大轉彎，拉他們一把，帶給他們繼續生活的希望。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250813115437594",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251211135707796.jpg",
+        "date_range": "2025/08/13 ~ 2026/08/09",
+        "ending_soon": false
+      },
+      {
+        "id": 117,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "義起捐棺",
+        "description": "助有名無主--如沒有親人或外籍人士的後事圓滿。  助無名無主--如未查明被害者身份或不明身份的走失者（如失智者）。  助有名有主--家境相當困難者。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260105172648697",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260105172407146.png",
+        "date_range": "2026/01/05 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 118,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "失智... 一場漫長的告別",
+        "description": "因有人一起幫忙！我才能有一點時間去送外賣兼職...經濟比較不會那麼緊  因有人一起幫忙！我才能有一點時間喘息  因有人一起幫忙！才有辧法不跟親愛的分開...  人力志工／經濟補貼/數位定位/二手輔具.....",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260303182545563",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260303182338045.png",
+        "date_range": "2026/03/03 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 119,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "肯愛服務協會",
+        "title": "最難的年關，最深的愛",
+        "description": "年關難，患有肌肉失養症的小益住在台東部落，讀小二的他手腳越來越無力，身體的狀況越發嚴重。 雪上加霜的是，貧病壓力下爸爸一時想不開在浴室燒炭，幸好及時搶救，才搶救回寶貴的生命。 和肯愛協會一起幫助貧病家過年關，最難的年關，需要最深的愛。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251229103651204",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251229103422337.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 120,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "孩子本是完整獨立的一個「人」！",
+        "description": "令人髮指！ 活不下去...ㄧ起死？父母因為各種原因帶著子女自殺的案件層出不窮，不解爸媽應視孩子為珍寶，卻捨得親手結束孩子生命，是否忘了孩子是完整獨立的一個「人」？",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260121141910093",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260121141551721.png",
+        "date_range": "2026/01/21 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 121,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "勵馨基金會",
+        "title": "【蒲公英飛揚計畫】性創傷復原與防治服務",
+        "description": "勵馨於1988年由一群基督徒因關心台灣少女被人口販運之議題而成立，30多年來，從少女中途之家到擴展家暴、性侵等性別暴力服務，目前在全國15個縣市有50餘個服務據點，每年服務近兩萬名性別暴力倖存者脫離暴力影響，展開新生活。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251231144719458",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251231143140114.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 122,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "基督徒救世會基金會",
+        "title": "孫子眼中的超人阿嬤病倒了，急需援助",
+        "description": "像阿嬤這樣的脆弱家庭，每一個生活挑戰，都可能成為壓垮家庭的危機，當家的守護者倒下，急切需要大家伸出援手，幫忙撐住這個家。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260205145811066",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260205145831665.jpg",
+        "date_range": "2026/02/05 ~ 2027/01/31",
+        "ending_soon": false
+      },
+      {
+        "id": 123,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "也許有不得已的苦衷...所以被遺棄了 ⁉️",
+        "description": "剛出生的小男嬰被丟棄在苗栗銅鑼郊區的產業道路，全身上下只包著一條浴巾外面罩個黑色垃圾袋而且臍帶是被扯斷的，被人發現時已經失溫，幸好民眾及時送醫，救回這一條小生命。  由於男嬰被發現的地點位於郊區，附近並未設置錄影監視器，社工單位只能呼籲男嬰的生父母趕快出面，如果4個月未認領，將依規定辦理收養。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260202232701760",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260202232436473.png",
+        "date_range": "2026/02/02 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 124,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "牠們一生都忠心奉獻給了主人。但得到的是...",
+        "description": "#遭受惡意的棄養      ＃流浪在無止盡的道路 #餓到啃死老鼠皮 ＃被惡劣人傷害",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260305145944317",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260305145700362.png",
+        "date_range": "2026/03/05 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 125,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "肯愛服務協會",
+        "title": "好想再聽小彥開口說一句話",
+        "description": "誰也沒有想到原本會說話的小彥，在一歲半的時候罹患了日本腦炎之後，居然就再也不會說話了，不管媽媽怎麼哭，現在也只會用手勢說話的小彥，非常需要復健和治療，為發展障礙的孩子找回健康，肯愛需要你的幫忙。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251229103105455",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251229102449092.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 126,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "臺中市愛無礙協會",
+        "title": "弱勢家庭食(實)物銀行暨節慶關懷計劃",
+        "description": "有些弱勢家庭不是不努力，而是生活壓力真的太沉重，常常連下一餐都得精打細算。臺中市愛無礙協會推動「弱勢家庭食(實)物銀行暨節慶關懷計劃」，透過食物銀行提供150人次日常食物支持，協助家庭穩定基本生活；並在新年、端午、中秋送上紅包與節慶禮盒，讓他們在重要節日裡也能感受到被關心、被陪伴的溫暖。邀請你一起加入，用一份捐款支持弱勢家庭走過艱難，讓每個日子都能多一點安心與希望。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260122182014601",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260122180110533.jpg",
+        "date_range": "2026/01/22 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 127,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "基督徒救世會基金會",
+        "title": "澄恩「太過動」，被貼上「不聽話」的標籤",
+        "description": "早期療育介入，不只是幫助孩子學習，而是讓他們在成長的路上，被接住，而不是被放下。 邀請您與我們一起接住發展落後的孩子，為他們帶來改變的機會！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260209144732264",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260209143928282.jpg",
+        "date_range": "2026/02/09 ~ 2027/01/31",
+        "ending_soon": false
+      },
+      {
+        "id": 128,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "微客公益行動協會",
+        "title": "微愛而走 台灣弱勢孩童提升藝術涵養",
+        "description": "誠摯地邀請您一同提升弱勢偏鄉孩童藝術素養，請專業的演奏家與樂團走進他鄉。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250205155847246",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251212100344657.jpg",
+        "date_range": "2025/02/05 ~ 2026/06/30",
+        "ending_soon": false
+      },
+      {
+        "id": 129,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "私立盲人重建院",
+        "title": "【載愛前行，重建希望】 盲人重建院交通車募集計畫，讓重建之路有車同行",
+        "description": "台灣盲人重建院現有車輛老舊且故障率高，無論是對於服務個案的安全性，或是工作人員的效率都會造成隱憂，希望大家能夠協助我們，幫助我們將機構的交通車汰舊換新，這不只是一台車，而是一條通往希望的道路，是連結你我與視障者的起點，邀請您加入「載愛前行，重建希望」的行列，讓每一段人生旅程，不再孤單!",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251219105619862",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251219101617517.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 130,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "你的『愛』可循環，循環再循環...",
+        "description": "動輒上萬的輔具，除了有效回收之外還需要你的支持，才能運行 (維護、清潔、存放)。  行動不便或是長期臥床的朋友們才能離開病榻到外面曬太陽，幫助他們提升身體的抵抗力，除了能省下大筆我們的健保支出外，更能幫助他們重新接觸人群。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260202235144814",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260202234940177.png",
+        "date_range": "2026/02/02 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 131,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "台北市視障者家長協會",
+        "title": "我站在這裡，多不容易!支持視障音樂創作",
+        "description": "聽覺，是視障者的優勢感官；音樂，成了視障者的那扇窗。 可是，從聲音接觸這個世界，到用音樂體會這個世界，這條路並不好走……",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260115104939736",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260115104707311.png",
+        "date_range": "2026/01/15 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 132,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華長照協會",
+        "title": "深耕地區服務弱勢兒童 ‧ 當我們幼在一起",
+        "description": "我們真心期待弱勢家庭的孩子能夠快樂健康地成長，找回自信和勇氣，敢於夢想；家長得以安心就業、家庭充滿盼望，因此開辦偏鄉弱勢兒童課後照顧班與暑期寒假的才藝班，孩子的家庭背景不盡相同，單親、隔代、輕微身心障礙或新住民小朋友，凡是我們有能力照顧的，協會都會盡最大的努力讓孩子有個快樂成長的環境，實踐協會「幼有所長、壯有所用、老有所終」的精神。  這些日子以來，看到孩子們及家長對志工、環境、協會，一步步建立起信任感，原本陌生的彼此也逐漸熟悉工作人員的收穫遠超越孩子的成長；我們能做的不多，會盡最大的力氣去完成使命。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251218140043636",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251218132920737.jpg",
+        "date_range": "2025/12/18 ~ 2026/03/31",
+        "ending_soon": true
+      },
+      {
+        "id": 133,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "雲後光聯盟",
+        "title": "一隻貓、一碗牛奶、一個紙箱，讓人們的生命有了交會的可能......",
+        "description": "是誰？是誰在傷心的喵喵叫？ 是誰聽見小貓的叫聲而停下腳步？ 是誰好奇的東張西望找著小貓的身影？ 是誰倒了一碗牛奶，讓飢餓的小貓可以溫飽？  又是一個又餓又髒、孤單害怕，需要一個家的小貓的故事...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260102004619857",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260102004350143.png",
+        "date_range": "2026/01/02 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 134,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "可以當我的靠山嗎 ⁉️",
+        "description": "1.想學沒得學的孩子  2.想站沒法站直的孩子  3.想吃卻吃不飽的孩子  4.想有依靠卻沒得靠的幼童 5.衣物及醫療自費部份 6.不知家在哪！住哪？ 7.青少年也需部份零用錢以培養理財觀及培養技能的金費",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260205164859168",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260205164607727.png",
+        "date_range": "2026/02/05 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 135,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "長者與親友見面 回答『記不起來』或『完全沒有』",
+        "description": "送餐為起點，實質為探訪！  也許熱水器沒電池了！ 也許滑倒了！ 也許電燈泡壞了...  因為有人來，可能可以帶我去看醫生！  因為有人來，我才能求助或求救！  因為有人來，才知道我走不動了！  因為有人來，才發現...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260205183747051",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260205183704821.png",
+        "date_range": "2026/02/05 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 136,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "勵馨基金會",
+        "title": "【目睹暴力兒少】 向日葵小屋服務",
+        "description": "勵馨於1988年由一群基督徒因關心台灣少女被人口販運之議題而成立，30多年來，從少女中途之家到擴展家暴、性侵等性別暴力服務，目前在全國15個縣市有50餘個服務據點，每年服務近兩萬名性別暴力倖存者脫離暴力影響，展開新生活。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251231151323529",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251231145401502.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 137,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "世界和平會",
+        "title": "搶救受飢兒—吃飽才有希望！",
+        "description": "你我身邊就有許多受飢兒，因家中經濟困難、疏忽、無力照顧，中午依靠學校或政府補助的餐點，晚餐打包午餐的剩菜飯，但是早上總是餓著肚子上學。世界和平會持續籌募全台服務貧童的愛心早餐，希望號召大家關心貧弱孩童的健康成長。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260319173449718",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260319172251047.jpg",
+        "date_range": "2026/03/20 ~ 2026/05/31",
+        "ending_soon": false
+      },
+      {
+        "id": 138,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "中華耆幼關懷協會",
+        "title": "『隔夜飯菜』配『電視聲』...",
+        "description": "如果沒有意外，你我都會老去...只需一副碗筷 ， 一張椅子！電視開著比較熱鬧的感覺！也可以比較了解外面的世界。  問阿婆為何不去走走？她問我去哪？ （心想）是呀！丈夫去逝及離開工作後...人際關係也漸漸沒了！視力不佳！腿腳無力...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260225155241785",
+        "image_url": "https://www.npochannel.net/PIC/202602/20260225154933628.png",
+        "date_range": "2026/02/25 ~ 2026/09/30",
+        "ending_soon": false
+      },
+      {
+        "id": 139,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "喜憨兒基金會",
+        "title": "喜憨30，笑容永續｜成為喜憨兒的靠山",
+        "description": "三十年來，在你的支持下，一張張憨兒的笑容，在台灣這塊寶島中綻放。 從第一間喜憨兒烘焙屋開始，每年超過千位憨兒穿上制服、走進工作崗位， 在烘焙坊、餐廳、工場與社區努力站穩腳步、實現夢想。 而今，他們正邁向人生的下一個階段─邀請你加入成為喜憨兒的靠山， 與我們一起打造笑容永續的未來。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251230150421589",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251230150315320.jpg",
+        "date_range": "2026/01/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 140,
+        "type": "fundraising",
+        "category": "募款計畫",
+        "npo_name": "介惠慈善基金會",
+        "title": "愛心接力，讓溫暖無限延續",
+        "description": "捐款支持歲末傳愛計畫，成為偏鄉長者生命中的陽光",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20260116131418768",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260116131428996.png",
+        "date_range": "2026/01/16 ~ 2026/12/31",
+        "ending_soon": false
+      }
+    ],
+    "food": [
+      {
+        "id": 1,
+        "type": "food",
+        "category": "集食送愛",
+        "npo_name": "",
+        "title": "《快煮鍋．聯合募集》幫助獨居長輩生活改善",
+        "description": "獻給獨居長輩的烹飪幫手，集結微小力量，帶來改變契機！（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+        "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20250501201837672",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209050846630.jpg",
+        "date_range": "2025/05/01 ~ 2030/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 2,
+        "type": "food",
+        "category": "集食送愛",
+        "npo_name": "",
+        "title": "《米漢堡聯合募集》給弱勢孩童帶來希望",
+        "description": "支持集食送愛活動，幫助偏鄉弱勢學童。（購買者不會收到商品｜勸募字號：勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+        "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20241028124238601",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209051145974.jpg",
+        "date_range": "2024/10/28 ~ 2030/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 3,
+        "type": "food",
+        "category": "集食送愛",
+        "npo_name": "",
+        "title": "《濃豆奶．聯合募集》守護脆弱家庭的營養均衡",
+        "description": "用濃豆奶關注脆弱家庭，補足每日的元氣與希望。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+        "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20260303102744229",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260303101825262.jpg",
+        "date_range": "2026/03/03 ~ 2030/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 4,
+        "type": "food",
+        "category": "集食送愛",
+        "npo_name": "",
+        "title": "《母親節蛋糕．聯合募集》被遺忘的祝福",
+        "description": "為弱勢家庭的媽媽送上溫暖的祝福，帶來久違的笑容。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+        "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20260303104124287",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260303103522307.jpg",
+        "date_range": "2026/03/03 ~ 2026/05/10",
+        "ending_soon": false
+      },
+      {
+        "id": 5,
+        "type": "food",
+        "category": "集食送愛",
+        "npo_name": "",
+        "title": "《電扇．聯合募集》酷暑送涼給弱勢家庭",
+        "description": "獻給弱勢家庭的盛夏涼風，無懼炎熱酷暑！（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+        "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20250809011549580",
+        "image_url": "https://www.npochannel.net/PIC/202511/20251124100948144.jpg",
+        "date_range": "2025/08/09 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 6,
+        "type": "food",
+        "category": "集食送愛",
+        "npo_name": "",
+        "title": "《生日蛋糕．聯合募集》點亮弱勢家庭的生日願望",
+        "description": "加入集食送愛，讓弱勢家庭生日不再被遺忘。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+        "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20241220154659621",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209051123612.jpg",
+        "date_range": "2024/12/20 ~ 2030/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 7,
+        "type": "food",
+        "category": "集食送愛",
+        "npo_name": "",
+        "title": "《菜品聯合募集》為成長孩童的營養均衡",
+        "description": "為弱勢家庭的孩童加菜，給成長中的孩童補充營養。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+        "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20241028180830103",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209051230467.jpg",
+        "date_range": "2024/10/28 ~ 2030/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 8,
+        "type": "food",
+        "category": "集食送愛",
+        "npo_name": "",
+        "title": "《堅果榖粉．聯合募集》弱勢家庭的營養補給",
+        "description": "用堅果榖粉關注弱勢家庭的營養補給，補足每日能量。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+        "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20260303103405566",
+        "image_url": "https://www.npochannel.net/PIC/202603/20260303103031627.jpg",
+        "date_range": "2026/03/03 ~ 2030/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 9,
+        "type": "food",
+        "category": "集食送愛",
+        "npo_name": "",
+        "title": "《湯品聯合募集》為獨老奉上暖暖心意",
+        "description": "一份愛心，無限感動，讓弱勢家庭品嚐美味的暖心湯品。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+        "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20241028182533333",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209051001533.jpg",
+        "date_range": "2024/10/28 ~ 2030/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 10,
+        "type": "food",
+        "category": "集食送愛",
+        "npo_name": "",
+        "title": "《雙人電熱毯．聯合募集》寒冬送暖給弱勢家庭",
+        "description": "獻給弱勢家庭的溫暖庇護，小小善意，溫暖整個冬天！（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+        "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20251017011801607",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209095042302.jpg",
+        "date_range": "2025/10/17 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 11,
+        "type": "food",
+        "category": "集食送愛",
+        "npo_name": "",
+        "title": "《菜品聯合募集》關懷被遺忘的邊緣戶",
+        "description": "愛心餐募集！幫助無法取得政府補助之邊緣戶。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+        "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20241028182144919",
+        "image_url": "https://www.npochannel.net/PIC/202511/20251124100749290.jpg",
+        "date_range": "2024/10/28 ~ 2050/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 12,
+        "type": "food",
+        "category": "集食送愛",
+        "npo_name": "",
+        "title": "《燕麥片聯合募集》守護獨居長者的健康",
+        "description": "小小燕麥，大大關懷，為長輩增添一個月的營養補給。（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+        "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20241028181510210",
+        "image_url": "https://www.npochannel.net/PIC/202601/20260129102234412.jpg",
+        "date_range": "2024/10/28 ~ 2030/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 13,
+        "type": "food",
+        "category": "集食送愛",
+        "npo_name": "",
+        "title": "《單人電熱毯．聯合募集》陪伴獨居長輩度過寒冬",
+        "description": "獻給長輩冬天溫暖的守護，成為寒冬中溫暖的陪伴！（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+        "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20251017011256211",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209050647198.jpg",
+        "date_range": "2025/10/17 ~ 2030/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 14,
+        "type": "food",
+        "category": "集食送愛",
+        "npo_name": "",
+        "title": "《電鍋．聯合募集》幫助弱勢家庭改變生活",
+        "description": "為弱勢家庭帶來希望，集結微小力量，帶來改變契機！（購買者不會收到商品｜勸募字號：勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+        "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20250501194448912",
+        "image_url": "https://www.npochannel.net/PIC/202511/20251124101040802.jpg",
+        "date_range": "2025/05/01 ~ 2026/12/31",
+        "ending_soon": false
+      },
+      {
+        "id": 15,
+        "type": "food",
+        "category": "集食送愛",
+        "npo_name": "",
+        "title": "《檯燈．聯合募集》陪伴弱勢孩子認真學習",
+        "description": "點亮學習路上的第一盞燈，照亮孩子未來！（購買者不會收到商品｜勸募字號：衛部救字第1141364511號、1141364902號、1141364516號、1131364730號）",
+        "link": "https://www.npochannel.net/Ad2/Article?CARD_ID=20250809011100376",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209050923124.jpg",
+        "date_range": "2025/08/08 ~ 2030/12/31",
+        "ending_soon": false
+      }
+    ],
+    "story": [
+      {
+        "id": 1,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "福氣社區關懷協會",
+        "title": "112年度社區長者與身心障礙者生活支持計畫",
+        "description": "為提供社區長者與身心障礙者生活支持服務，建立更友善的社區環境與支持系統，本會發起「112年度社區長者與身心障礙者生活支持計畫」，將辦理相關勸募活動，籌募服務開展，期望提升社區長者與身心障礙者生活品質，並減輕弱勢家庭照顧者照顧壓力。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20230606161102199",
+        "image_url": "https://www.npochannel.net/PIC/202306/20230606160935293.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 2,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "癌症基金會",
+        "title": "銀髮南鄉 就醫無礙-紀錄微短片(2018)",
+        "description": "阿瑞奶奶肺癌三期，清晨6點下山，到車城趕七點的公車，獨自從牡丹鄉至東港安泰醫院治療...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200715214148808",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200715214121877.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 3,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "世界和平會",
+        "title": "不論貧窮或富有，「夢想」是孩子們的最大資產",
+        "description": "哥哥：人在困難的時候，就算是小幫忙，或是有人登門拜訪給你關心，真的很好！ 小傑：很像大家都是一家人，和平會就給我這種感覺。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200715212153552",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200715212113999.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 4,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "桃園市私立脊髓損傷潛..",
+        "title": "微光—生活重建訓練介紹",
+        "description": "脊髓損傷中心一直秉持著傷友的「訓練服務不能停」的理念，26年來一直免費提供脊髓損傷者重建訓練服務，為的就是能減少弱勢的脊髓損傷家庭的負擔，並協助傷友們能早日回歸社會、家庭、職場。 由於傷友的平均傷年齡只有27歲，正是人生及家庭起飛的黃金時間，在未來的人生中還有很多的希望及未來，只要給予機會及協助，都一定要以讓他們有所改變...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20210602144932141",
+        "image_url": "https://www.npochannel.net/PIC/202106/20210602144923449.png",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 5,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "勵馨基金會",
+        "title": "勵馨攜手許瑋甯發聲力挺受害者！",
+        "description": "全球約73%女性網路使用者曾遭受網路性別暴力，其中18至24歲年輕女性是受害風險最高的族群……",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20230117102704504",
+        "image_url": "https://www.npochannel.net/PIC/202301/20230117102655532.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 6,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "微客公益行動協會",
+        "title": "2021【Waker Walker 拯救童年 • 微愛而走】紀錄片",
+        "description": "2021【Waker Walker 拯救童年 • 微愛而走】圓滿成功！ 感謝所有熱情參與的朋友們，以及與我們一起奮鬥的小幫手們。因為有你們，讓遠方孩子們的故事能夠被聽見、被看見，被溫暖地感受著！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20210604162933922",
+        "image_url": "https://www.npochannel.net/PIC/202106/20210604162706248.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 7,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "癌症基金會",
+        "title": "銀髮南鄉 就醫無礙-紀錄微短片(2024)",
+        "description": "台灣癌症基金會致力於用愛與關懷守護偏鄉銀髮癌友的康復之路，打造出無障礙的就醫環境。我們呼籲全民關注偏鄉癌友就醫可近性議題，號召社會大眾力量加入我們的行列，共同為改善偏鄉地區的醫療條件而努力，讓每一位銀髮癌友都能夠安心面對治療，穩定就醫，讓他們康復之路「醫」行無礙。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20241225151112179",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251212153815561.png",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 8,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "桃園市私立脊髓損傷潛..",
+        "title": "微光-中心訓練介",
+        "description": "脊髓損傷中心一直秉持著傷友的「訓練服務不能停」的理念，26年來一直免費提供脊髓損傷者重建訓練服務，為的就是能減少弱勢的脊髓損傷家庭的負擔，並協助傷友們能早日回歸社會、家庭、職場。 由於傷友的平均傷年齡只有27歲，正是人生及家庭起飛的黃金時間，在未來的人生中還有很多的希望及未來，只要給予機會及協助，都一定要以讓他們有所改變...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20230207162457772",
+        "image_url": "https://www.npochannel.net/PIC/202302/20230207162331031.png",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 9,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "唐氏症基金會",
+        "title": "我想要長大",
+        "description": "發展遲緩兒童3歲之前接受1年的早期療育，勝過3歲之後才接受療育的10年成績，但有許多經濟弱勢家庭，無法負擔每年至少40萬元的早療費用而延誤了孩子的治療。公益大使周幼婷邀請您一起守護唐寶寶天使，把握早療黃金期！...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200714214918554",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200714214726388.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 10,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "NPOchannel..",
+        "title": "NPOchannel 集食送愛「獨居老人篇」",
+        "description": "集食送愛，讓愛即時——為弱勢家庭帶來溫暖，也讓他們在生活中看見希望！邀您一起響應集食送愛。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250306145739949",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209063328778.png",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 11,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "陽光基金會",
+        "title": "認真看見陽光 任家萱Selina為陽光基金會代言影片",
+        "description": "燒傷後，生命無法若無其事的重來 每一天傷友必須忍痛承受這看似無盡頭、進步緩慢的復健歷程，只盼實現心底的願望：重新學會走路、回學校完成未完的學業、重回職場、陪伴孩子長大！ #認真看見陽光 任家萱Selina邀請您看見燒傷朋友的努力，扶持他們走過漫長復健路",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20210331170137640",
+        "image_url": "https://www.npochannel.net/PIC/202103/20210331170102428.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 12,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "NPOchannel..",
+        "title": "NPOchannel 集食送愛「許願篇」",
+        "description": "集食送愛，讓愛即時——為弱勢家庭帶來溫暖，也讓他們在生活中看見希望！邀您一起響應集食送愛。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250306150942343",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209063732228.png",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 13,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "桃園市私立脊髓損傷潛..",
+        "title": "脊損夫妻環島拍婚紗，下一站總統府",
+        "description": "4個背包，14個輪子，4個瘋子，1場婚禮，一生不能錯過的冒險，用旅行傳遞希望，重新打破障礙的極限。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200715213052691",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200715213018668.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 14,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "唐氏症基金會",
+        "title": "愛從1開始！童享幸福，探索世界",
+        "description": "發展遲緩兒若在3歲前做早療，一年的功效是3歲以後的10倍。 唐氏症基金會成立20年來，早療服務已達11萬5千人次，旗下的愛家發展中心更在多項評鑑中榮獲「優等」肯定，規劃服務如：音樂、語言、物理、職能治療等專業療育課程...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200714212603158",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200714212521455.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 15,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "惠光導盲犬教育基金會",
+        "title": "惠光導盲犬本土培育頭一批-八寶粥",
+        "description": "這是惠光導盲犬歷史上第一次親手接生出來的本土導盲犬，有種開天闢地的成就感，這些小­黑頭長大後全都精力旺盛到不行，對惠光而言更是一劑強心針，看到牠們­從學習站立到成為使用者的雙眼，相信所有人都備感欣慰。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200715213632310",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200715213612008.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 16,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "私立永信基金會",
+        "title": "我懷念我媽媽",
+        "description": "失智家庭說不出的心裡話? 失智家庭常面對困擾的是難以與長輩溝通，不管是語言或非語言的，都無法與失智長輩有好的溝通，長輩活在自己的世界中。加上因失智發生的精神行為症狀（幻覺、妄想、睡眠障礙、攻擊行為）讓照顧工作更繁重，家人除了承受無法言喻的照顧壓力，彼此間的情感聯繫也開始亮...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200715212648601",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200715212601219.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 17,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "肯愛服務協會",
+        "title": "從生病痛痛到看醫生路有多遠",
+        "description": "海端部落，１歲的小凱因為尿道需要做重建手術，在台東醫療資源不足的情形下，每回治療，小凱必須千里迢迢地從台東到台北就醫，10歲小潔的腎臟病，17歲婷婷的糖尿病，對經濟弱勢的家來說，慢性的病，長期的治療更是困難重重，偏鄉兒醫路上需要你的肯愛。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20220613134122453",
+        "image_url": "https://www.npochannel.net/PIC/202206/20220613133847807.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 18,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "運動神經元疾病病友協..",
+        "title": "看天花板的人",
+        "description": "如果說人生是一列火車，每個人手上都有一張沒有標明終點站的車票，那麼沿路的每個站名對...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200715215720669",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200715215652188.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 19,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "老五老基金會",
+        "title": "擁抱獨老 愛不打烊",
+        "description": "擁抱獨老愛不打烊，從年節開始，開啟長輩一整年的幸福。 【除舊佈新】【採買年貨】【節慶圍爐】【幸福年菜】 【居家修繕】【餐食服務】【圓夢計畫】【關懷問安】...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200714220947760",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200714220902509.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 20,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "兒童發展早期療育協會",
+        "title": "花蓮兒發中心小朋友第二屆 畢業啦",
+        "description": "臺灣兒童發展早期療育協會，是由一群熱心參與、關懷遲緩兒童各項服務的理監事，及三百多名早期介入各領域的會員，和南投、台東、花蓮等三辦事處60多名同仁，一起組成。「快樂做早療」是我們追求的態度！雖然直接提供療育和社會工作的伙伴一點都不輕鬆！但是大家在自己的崗位上努力工作，在工作裡成長，體會快樂是來自於服務、陪伴的家庭變得更棒了。實踐了專業的堅持與付出後，在早療的園地裡，大手牽小手一起耕耘，這種有淚、有笑，交織的快樂，別有一番滋味在心頭。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20220913151543735",
+        "image_url": "https://www.npochannel.net/PIC/202209/20220913151438125.png",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 21,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "台南市私立蓮心園慈善..",
+        "title": "蓮心花開",
+        "description": "民國99年在新營設立台南第一間日間作業設施──蓮心坊新營站蛋捲班，今年104年目標為了讓住在家中的身心障礙者，於家人外出工作之時，能得到妥善的照顧與工作訓練，並幫助他們建立個別的人生目標，找到生活的重心，欲設立蛋捲蛋捲自動生產工場。...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200715213309632",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200715213255230.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 22,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "臺中市愛無礙協會",
+        "title": "春聯義賣送年菜 化小愛為大愛暖心過年",
+        "description": "臺中市愛無礙協會，透過募集善心人士的捐款，購買年菜並親送給50戶貧困家庭，讓他們在新年也能感受到溫暖與祝福。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250826193519294",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251212075532917.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 23,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "數位人道協會",
+        "title": "【改善偏鄉醫療不平等】他們不是不生病 而是不敢生病",
+        "description": "在醫療資源豐沛的台灣，有一群人，拿著一樣的健保卡，卻有著不同的命運... 都市裡，當我們身體稍有不適，走個幾步就可抵達附近巷口的診所看醫生、拿藥、解決疾病問題；然而在偏鄉，我們遇到了痛風發作，忍了四天，痛到昏倒才被送下山的爺爺，或是因為社區健康知識缺乏而遭受排擠孤獨的非開放性肺結核長輩...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20210818115508406",
+        "image_url": "https://www.npochannel.net/PIC/202108/20210818114513622.png",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 24,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "喜憨兒基金會",
+        "title": "喜憨兒基金會*你的愛 我的呵護-老憨兒終生照顧計畫",
+        "description": "就業是民生之本，也是憨兒改善生活的基礎、扭轉命運的關鍵，喜憨兒「庇護工場」、「庇護商店」及「工作站」的成立，就是為了提供他們一個安全、安心的環境，在完善的培訓計劃中，學習工作技能，實現就業的夢想，擺脫封閉不前的生活，建立與社會的正常接觸。...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200714225430327",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200714225359110.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 25,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "NPOchannel..",
+        "title": "NPOchannel 集食送愛「弱勢家庭篇」",
+        "description": "集食送愛，讓愛即時——為弱勢家庭帶來溫暖，也讓他們在生活中看見希望！邀您一起響應集食送愛。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250306150456264",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209063413829.png",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 26,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "癌症基金會",
+        "title": "銀髮南鄉 就醫無礙-紀錄微短片(2017)",
+        "description": "為什麼就醫一趟來回要8小時？林伯伯居住在台南南化水庫上游深山中，每次回診2個小時的...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200715214242985",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200715214223953.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 27,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "世界和平會",
+        "title": "因為世界慢了下來",
+        "description": "因為新冠肺炎，常有人形容世界按下了暫停鍵。但風還是繼續吹，地殼還是繼續移動，雨後彩虹還是一樣讓人期待。世界沒有暫停...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20210909135143968",
+        "image_url": "https://www.npochannel.net/PIC/202109/20210909134055428.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 28,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "癌症基金會",
+        "title": "林予晞「心」視角，藉鬼才導演盧建彰 ，帶你看見2019【銀髮偏鄉 就醫無礙】",
+        "description": "林予晞「心」視角，藉鬼才導演盧建彰 Kurt帶你看見2019【銀髮偏鄉 就醫無礙】...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200715214046508",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200715214024165.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 29,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "台北市失親兒基金會",
+        "title": "《472失落之旅》身歷其境 走過失親的孤獨與勇氣",
+        "description": "《472失落之旅》沉浸式體驗—是基金會為了讓民眾認識失親兒群體，所設計的品牌活動。多年來，本會致力為孩子們提供實質幫助跟陪伴。然而我們發現，社會大眾對失親兒的處境和情感依然缺乏足夠的「共感」、「同理」。因此，希望透過創新的方式，能讓大眾「感同身受」，體驗失親家庭的失落、掙扎與勇敢，這正是活動的初心。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250825100916076",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251212153338812.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 30,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "肯愛服務協會",
+        "title": "十一點的秘密",
+        "description": "對一個心苦兒來說，成長中的心理危機，包括自我棄絕、暴力學習、恐懼迴盪等，都可能成為...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200715213449518",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200715213423379.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 31,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "微客公益行動協會",
+        "title": "2019【Waker Walker 拯救童年．微愛而走】紀錄片",
+        "description": "2019【Waker Walker － 拯救童年 微愛而走】圓滿成功！  感謝所有熱情參與的朋友們，以及與我們一同奮鬥的小幫手們，因為有你們，讓遠方孩子們的故事能夠被聽見、被看見，更被溫暖地感受著！  在微微細雨的夜晚中，看見許多爸爸媽媽牽著孩子與我們一同前行，看見朋友們在聽故事時如此專注的眼神，看見大家左手手背上所貼著的孩童貼紙……  這一晚，超過 600人的齊步響應，每一步，我們都踏實地陪伴著遠方的孩子們！  【認識微愛而走】微客官網→活動訊息→微愛而走",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20210506123558765",
+        "image_url": "https://www.npochannel.net/PIC/202105/20210506123233044.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 32,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "NPOchannel..",
+        "title": "NPOchannel 集食送愛「關懷篇」",
+        "description": "集食送愛，讓愛即時——為弱勢家庭帶來溫暖，也讓他們在生活中看見希望！邀您一起響應集食送愛。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250306150732562",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209063435519.png",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 33,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "彩虹愛家生命教育協會",
+        "title": "只要 5 分鐘，認識《彩虹愛家生命教育協會》2.0",
+        "description": "彩虹愛家生命教育協會，到底是什麼樣的社福機構勒？ 為台灣的孩子與家庭提供了哪些服務呢? 彩虹媽媽又是誰？ 透過五分鐘手繪動畫，了解我們！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20230810171901007",
+        "image_url": "https://www.npochannel.net/PIC/202308/20230810170945453.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 34,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "普仁青年關懷基金會",
+        "title": "普仁助學超人三部曲",
+        "description": "劇情是根據普仁青年關懷基金會-大手拉小手「助學計畫」之小太陽故事事改編  很難想像在現今的台灣，還有一群辛苦的小孩，需要為生活打拼，為家計煩惱， 連\"單純念書\"，都是個奢侈的夢想...。每年，都有大量的學校老師幫清寒學生申請普仁基金會的補助款，但是因為資金有限，所以普仁只能\"篩選\"一小部分的同學補助。 基金會很頭痛，因為他們覺得每一個小孩都是符合條件需要被幫助的...。  所以，請大家幫忙分享，因為孩子是未來的希望，我們期望讓更多有愛心的人能夠看到這一支影片，也讓更多孩子們能夠恢復他們應有的笑容～",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20211013141837614",
+        "image_url": "https://www.npochannel.net/PIC/202110/20211013141813563.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 35,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "展翅協會",
+        "title": "給自立少女一個希望",
+        "description": "自立生活的能力是可以讓少女一輩子帶著走的能力，從自立開始扭轉人生！受過傷的弱勢少女，正努力學習自立生活讓自己變得更好，這條路需要您的幫助，邀您一起付出溫暖的力量，資助弱勢少女展翅自立生活計畫。...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200715211313738",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200715211244665.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 36,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "老五老基金會",
+        "title": "【助老吃飽】營養餐食計畫",
+        "description": "「呷飽沒？」 一份關懷，一個便當， 讓長輩獲得營養溫飽，展露笑顏！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20210412143531531",
+        "image_url": "https://www.npochannel.net/PIC/202104/20210412143435574.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 37,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "介惠慈善基金會",
+        "title": "介惠【2020偏鄉長者照顧計畫】溫暖扶助偏鄉孤老公益影片—孤老不孤單",
+        "description": "為了號召國人關注偏鄉長者照顧的議題，致力於台灣偏鄉社區照顧工作的介惠基金會，再度邀請名人代言公益影片，邀請近年開啟斜槓人生的藝人、甜點王子施易男擔任公益大使。施易男鼓勵大眾多關心身邊的老人家，多一點問候與笑容，他們就很安慰。若有能力，請捐款支持介惠「偏鄉長者照顧計畫」，讓欠缺資源的偏鄉老人也能在地安老，獲得妥善且持續的照顧，讓人生最後一段路程仍有溫暖。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20201012160727501",
+        "image_url": "https://www.npochannel.net/PIC/202010/20201014172125603.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 38,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "世界和平會",
+        "title": "打球的我，很快樂！",
+        "description": "有位高年級孩子期許自己在畢業後繼續打棒球，她明白進入國中階段後的訓練會變得更辛苦，但她還是希望能一路打棒球升學。另一位孩子則明白表示升國中後不會繼續打球，但是他很享受現在待在球隊的時光，這為現階段的他帶來許多快樂。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20210514154839500",
+        "image_url": "https://www.npochannel.net/PIC/202105/20210514154351159.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 39,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "老五老基金會",
+        "title": "【居家修繕】讓長輩住得安全又安心",
+        "description": "你能想像在沒有馬桶的家，如何生活嗎？ 房屋修繕使長輩家中的環境更安全舒適，讓長輩能夠安心、安全的在自己的家裡生活。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20210412144507862",
+        "image_url": "https://www.npochannel.net/PIC/202104/20210412144124051.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 40,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "福氣社區關懷協會",
+        "title": "111年度梧棲身心障礙社區式 日間服務場地新建計畫",
+        "description": "希望服務對象透過社工人員及教保員的服務導入，也能擁有參與簡單作業活動的能力。以烘焙作業為主題，輔以其他產品加工或包裝作業，設計相關訓練課程，協助身心障礙青年邁向「自立之路」。讓身心障礙青年不再只有「進機構」與「家裡蹲」兩種選項，透過服務的支持，我們可以有更好的選擇--「在社區生活」。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20211216095926235",
+        "image_url": "https://www.npochannel.net/PIC/202112/20211216095731563.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 41,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "NPOchannel..",
+        "title": "【公益永續】NPOChannel 集食送愛",
+        "description": "在公益永續方面，我們致力於建立可持續的公益生態系統，這包括推出公益募款平台、支持社會創業家、以及與非營利組織合作解決社會問題。我們不僅僅是資金的提供者，更是合作夥伴，與各界共同參與、共同體驗，透過集體力量實現社會的可持續發展。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20240401191312278",
+        "image_url": "https://www.npochannel.net/PIC/202404/20240401190310379.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 42,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "脊髓損傷基金會",
+        "title": "脊髓損傷基金會微電影《前進一步》",
+        "description": "累積至2016年，全台高達6萬5千名脊髓損傷傷友，且平均年齡僅有27歲，脊髓損傷者因為各種原因而成為四肢癱瘓或下半身癱瘓，除了對個人及家庭造成沈重打擊外，更因為近年來經濟景氣低靡，貧困家庭遽增，若突然遭逢意外狀況，必將面臨斷炊之虞。...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200714224917665",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200714224851919.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 43,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "世界和平會",
+        "title": "「媽媽的手」",
+        "description": "全世界最溫柔的一雙手，就是媽媽的手， 輕輕柔柔，溫溫暖暖，給我們安慰，讓我們飽足，拉拔我們長大， 時間在走，這雙手我們永遠都忘不了。  感念這一雙餵飽我們的手， 16年來，世界和平會已經提供全台386所小學，超過490萬份愛心餐點， 讓我們感念記憶中媽媽的手， 也一起向需要幫助的孩子伸出溫暖的手。  愛心支持~ 世界和平會「搶救受飢兒」貧弱家庭兒童愛心早餐與營養食品服務↘https://www.npochannel.net/NpoComp/NpoInfo?NPO_ID=20200708162905217",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20241225151549114",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251211141808521.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 44,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "勵馨基金會",
+        "title": "支持勵馨:一份馨 八倍勵",
+        "description": "勵馨基金會創辦三十年來，遇見超過十萬位被暴力深深傷害的女性朋友，從最早的雛妓救援到家暴庇護，勵馨努力接住許多受傷的靈魂，回首過去一路走來，我們想知道這幾年勵馨到底創造多少成效與社會影響力，因此投入心力，聘請專家評估近三年來社會投資報酬成果，最後得到SROI=8的數字，代表您...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200714205731299",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200714205630347.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 45,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "世界和平會",
+        "title": "用EYE看世界~「雲深處的美好瞬間」",
+        "description": "用攝影作為觀看世界的窗口， 帶領孩子感受身邊的美好， 展現他們純真無價的創造力。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20210113111852906",
+        "image_url": "https://www.npochannel.net/PIC/202101/20210113111803783.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 46,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "陽光基金會",
+        "title": "口腔癌服務與檳榔轉作 計畫",
+        "description": "在台灣每3小時就有一位父親因口癌倒下，罹癌後被迫失去健康、工作與正常生活，家庭成員須身兼照顧者、經濟來源，獨力扛起龐大醫療、家庭開銷，家庭經濟陷入危機。陽光提供全方位生心理重建服務，協助口友及其家庭恢復正常生活......",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200714212420625",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200714211933110.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 47,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "陽光基金會",
+        "title": "Be your sunshine 任家萱Selina邀您一起成為那道溫暖的陽光",
+        "description": "燒傷身心重建之路漫長又充滿挑戰， 彷彿一段看不到盡頭的黑暗道路， 任家萱Selina 邀您一起成為那道溫暖的陽光， 陪伴燒傷朋友勇敢重生！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20220425121151640",
+        "image_url": "https://www.npochannel.net/PIC/202204/20220425120930998.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 48,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "中華長照協會",
+        "title": "給獨居失依長者晚年一份家的溫暖－獨老公寓永樂居",
+        "description": "目前「永樂居」為一層樓的舊式公寓重新裝潢改造， 走入公寓有交誼廳、廚房等公共空間； 因長者年齡逐漸老化，日常生活動作在現有環境中均有障礙， 永樂居也為獨老設置無障礙設施改善、室內動線與空間重新規劃、居家設備更新等。 永樂居將帶給獨居失依老人一個友善住宿環境，與擁有一個「家」的希望。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20230508154930900",
+        "image_url": "https://www.npochannel.net/PIC/202305/20230508154422700.PNG",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 49,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "福氣社區關懷協會",
+        "title": "社區長者與身心障礙者生活支持計畫",
+        "description": "用於推展:  1. 推動成年身心障礙社區自立服務與社區互助活動。 2. 辦理弱勢家庭物資發放事宜。3.社區服務據點設施設備維修購置、場地裝潢修繕。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20221004132603612",
+        "image_url": "https://www.npochannel.net/PIC/202210/20221004132520781.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 50,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "勵馨基金會",
+        "title": "一圓就學夢 助學家暴童",
+        "description": "全台一年近80,000個，遭受到家暴、性侵、性剝削等遭遇，身處在不利於成長失功能家庭環境中的孩子。  期盼有您的參與，讓逆境兒少逐漸累積能量，走向自立，成功轉大人。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20230117102121955",
+        "image_url": "https://www.npochannel.net/PIC/202301/20230117101920022.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 51,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "臺中市愛無礙協會",
+        "title": "愛無礙大孩子的日常",
+        "description": "在臺中市愛無礙協會，大孩子們透過學習技能與參與社區，培養自信與能力，開創屬於自己的舞台。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250826194232869",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251212075722102.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 52,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "陽光基金會",
+        "title": "陪伴陽光孩子 勇敢迎向未來",
+        "description": "經過一年多咬牙忍淚，努力復健，暖暖從移動相當困難，只能坐輪椅，到可以開心追著治療師阿姨跑。眼見復健越趨穩定狀況，暖暖亦重返東部家鄉幼兒園就讀。很難想像當初全身80%燒傷，出院後全身纏滿繃帶的她能...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20221109151212266",
+        "image_url": "https://www.npochannel.net/PIC/202211/20221109151140555.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 53,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "公益聯盟",
+        "title": "與鈞甯一起『用愛幫弱勢成長』",
+        "description": "2022年，公益聯盟邀請到國際巨星、實力派演員張鈞甯一起支持台灣弱勢朋友！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20220318134944468",
+        "image_url": "https://www.npochannel.net/PIC/202203/20220318134940692.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 54,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "私立永信基金會",
+        "title": "手作藝動 家屋情",
+        "description": "長者也許失智，也許失能，用創作來訴說生活中的喜怒哀愁。如隱藏在鄰里巷弄裡的咖啡館一...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200715212745199",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200715212718876.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 55,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "NPOchannel..",
+        "title": "說一個愛的故事 「NPOchannel集食送愛」",
+        "description": "臺北廣播電臺《說一個愛的故事》04/27專訪NPOchannel創辦人張幼霖，聊聊集食送愛的初衷與理念。",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20250429104616373",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251209063500527.png",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 56,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "勵馨基金會",
+        "title": "小夢想大實踐，照亮兒少上學",
+        "description": "勵馨助學計劃冀望幫助1,000名孩子就學，讓她們雖在困境中仍能載著夢想希望往前走，有更多不一樣的選擇機會，從而翻轉過去的生命框架，改善日後的生活。邀請大家一起支持助馨助學計劃【翻轉生命框架，照亮兒少上學路】，您現在的資助，決定她們的未來。...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200714205540472",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200714205449932.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 57,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "脊髓損傷基金會",
+        "title": "脊髓損傷協同團隊-友善新世界 形象影片",
+        "description": "累積至2016年，全台高達6萬5千名脊髓損傷傷友，且平均年齡僅有27歲，脊髓損傷者因為各種原因而成為四肢癱瘓或下半身癱瘓，除了對個人及家庭造成沈重打擊外，更因為近年來經濟景氣低靡，貧困家庭遽增，若突然遭逢意外狀況，必將面臨斷炊之虞。...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200714221142863",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200714224942006.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 58,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "世界和平會",
+        "title": "「種下善念」",
+        "description": "給孩子餐點，讓他飽食一天， 為孩子種下善念種子，讓他一生受用， 世界也會因此變得更加美好！",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20251205154953782",
+        "image_url": "https://www.npochannel.net/PIC/202512/20251211141948775.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 59,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "喜憨兒基金會",
+        "title": "喜憨兒基金會 因你而改變",
+        "description": "就業是民生之本，也是憨兒改善生活的基礎、扭轉命運的關鍵，喜憨兒「庇護工場」、「庇護商店」及「工作站」的成立，就是為了提供他們一個安全、安心的環境，在完善的培訓計劃中，學習工作技能，實現就業的夢想，擺脫封閉不前的生活，建立與社會的正常接觸。...",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200714225508453",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200714225450796.jpg",
+        "date_range": "",
+        "ending_soon": false
+      },
+      {
+        "id": 60,
+        "type": "story",
+        "category": "溫馨影片",
+        "npo_name": "世界和平會",
+        "title": "搶救受飢兒服務影片《2017 年度公益形象代言人：陳昭賢 》",
+        "description": "看似平常的畫面，爸爸牽著女兒的手在河濱公園散步，橋下這一個角落，曾經是小小螢的家....",
+        "link": "https://www.npochannel.net/Fundraising/Article?CARD_ID=20200715212345514",
+        "image_url": "https://www.npochannel.net/PIC/202007/20200715212328745.jpg",
+        "date_range": "",
+        "ending_soon": false
+      }
+    ],
+    "partner": [
+      {
+        "id": 1,
+        "type": "partner",
+        "category": "企業夥伴",
+        "name": "漢田生技股份有限公司",
+        "org_type": "製造業",
+        "location": "彰化縣",
+        "inner_url": "https://www.npochannel.net/Cooperation/Partner?VENDER_ID=20220711100804124",
+        "official_link": "https://www.htbios.com/",
+        "image_url": "https://www.npochannel.net/VENDERLOGO\\HT－LOGO_20220715143136088.png",
+        "description": "漢田生技成立於2007年06月，總部位於彰化縣員林市。本著「 誠信卓越，以客為尊，創新自然，品質第一 」的經營理念，目標是讓漢田生技成為漢方保健商品之馳名企業。漢田生技為台灣領導液劑、果凍、晶凍類保健食品代工大廠（OEM ＆ ODM）提供保健食品客製化服務與最多樣式專利鋁箔袋包裝，使廠商有更多的選擇。數年的生產、研發經驗，使我司在品質上受國內外許多大廠所青睞。目前通ISO22000、HACCP、食品業者衛生安全 （二級品管）、HALAL清真等工廠認證，給您真正安心MIT產品。公司代號：1294",
+        "stats": {
+          "communities": 2,
+          "locations": 3,
+          "employees": 126,
+          "joined_year": 2022
+        },
+        "charity_impact": {
+          "days": 1343,
+          "npo_count": 5,
+          "fundraising_plans": 6
+        },
+        "donations": {
+          "one_time": {
+            "people": 4,
+            "count": 4,
+            "amount": 3800
+          },
+          "recurring": {
+            "people": 2,
+            "count": 13,
+            "amount": 2900
+          },
+          "total": {
+            "people": 6,
+            "count": 17,
+            "amount": 6700
+          }
+        },
+        "food_delivery": {
+          "people": 15,
+          "count": 33,
+          "portions": 1485,
+          "amount": 581157
+        }
+      },
+      {
+        "id": 2,
+        "type": "partner",
+        "category": "校園夥伴",
+        "name": "國立台南大學",
+        "org_type": "大學",
+        "location": "臺南市",
+        "inner_url": "https://www.npochannel.net/Cooperation/Partner?VENDER_ID=20250222100122077",
+        "official_link": "",
+        "image_url": "https://www.npochannel.net/VENDERLOGO\\images_20251208212645874.png",
+        "description": "國立臺南大學（簡稱南大），是一所位於臺灣臺南市中西區的國立大學，前身為「臺南師範學校」，歷經多次改制而成，是一所擁有逾百年校史的大學，為臺南府城歷史悠久的高等教育機構，歷經師範學校、師專、師範學院時期，在2004年升格為具教育、人文、理工、環境與生態、藝術與管理六大學院的綜合型大學。",
+        "stats": {
+          "communities": 2,
+          "locations": 6,
+          "employees": 531,
+          "joined_year": 2025
+        },
+        "charity_impact": {
+          "days": 363,
+          "npo_count": 4,
+          "fundraising_plans": 7
+        },
+        "donations": {
+          "one_time": {
+            "people": 4,
+            "count": 6,
+            "amount": 2100
+          },
+          "recurring": {
+            "people": 1,
+            "count": 2,
+            "amount": 1000
+          },
+          "total": {
+            "people": 5,
+            "count": 8,
+            "amount": 3100
+          }
+        },
+        "food_delivery": {
+          "people": 39,
+          "count": 40,
+          "portions": 120,
+          "amount": 45476
+        }
+      },
+      {
+        "id": 3,
+        "type": "partner",
+        "category": "校園夥伴",
+        "name": "淡江大學",
+        "org_type": "大學",
+        "location": "新北市",
+        "inner_url": "https://www.npochannel.net/Cooperation/Partner?VENDER_ID=20230217152112318",
+        "official_link": "https://www.tku.edu.tw/index.asp",
+        "image_url": "https://www.npochannel.net/VENDERLOGO\\Tamkang_University_logo_20251208212807618.png",
+        "description": "淡江大學，是臺灣首間成立的私立大學，使命是承先啟後，塑造社會新文化，培育具心靈卓越的人才。有4個校園（淡水、台北、蘭陽、網路）、逾2000位教職員、23000+位學生正在就讀中，並有29萬多的畢業校友。在「共創大淡水、智慧大未來」的高教願景之下，近年定調「AI」加「永續」為本校現在與未來的努力方向，在九個學院與各級單位的戮力合作，積極尋求轉型之路。也在2018年起，積極投入大學社會責任實踐計畫，透過各式社會實踐創新課程，與社會大眾對話與互動。",
+        "stats": {
+          "communities": 1,
+          "locations": 8,
+          "employees": 26,
+          "joined_year": 2023
+        },
+        "charity_impact": {
+          "days": 1112,
+          "npo_count": 7,
+          "fundraising_plans": 14
+        },
+        "donations": {
+          "one_time": {
+            "people": 19,
+            "count": 29,
+            "amount": 19000
+          },
+          "recurring": {
+            "people": 1,
+            "count": 12,
+            "amount": 12000
+          },
+          "total": {
+            "people": 20,
+            "count": 41,
+            "amount": 31000
+          }
+        },
+        "food_delivery": {
+          "people": 96,
+          "count": 110,
+          "portions": 350,
+          "amount": 112899
+        }
+      },
+      {
+        "id": 4,
+        "type": "partner",
+        "category": "企業夥伴",
+        "name": "福灣巧克力",
+        "org_type": "食品飲料",
+        "location": "屏東縣",
+        "inner_url": "https://www.npochannel.net/Cooperation/Partner?VENDER_ID=20210202122150894",
+        "official_link": "https://www.fuwanshop.com",
+        "image_url": "https://www.npochannel.net/VENDERLOGO\\英中直式_20210202121449043.jpg",
+        "description": "福灣巧克力是一個將屏東可可帶到全世界的tree-to-bar巧克力品牌，以突破性的巧克力製作工藝，帶給世界美妙的巧克力飲食文化體驗，從可可樹到巧克力，傳遞從土地到靈魂的生命至美。",
+        "stats": {
+          "communities": 2,
+          "locations": 2,
+          "employees": 29,
+          "joined_year": 2021
+        },
+        "charity_impact": {
+          "days": 1868,
+          "npo_count": 17,
+          "fundraising_plans": 23
+        },
+        "donations": {
+          "one_time": {
+            "people": 14,
+            "count": 24,
+            "amount": 567400
+          },
+          "recurring": {
+            "people": 12,
+            "count": 65,
+            "amount": 1096000
+          },
+          "total": {
+            "people": 26,
+            "count": 89,
+            "amount": 1663400
+          }
+        },
+        "food_delivery": {
+          "people": 0,
+          "count": 0,
+          "portions": 0,
+          "amount": 0
+        }
+      },
+      {
+        "id": 5,
+        "type": "partner",
+        "category": "企業夥伴",
+        "name": "起士公爵",
+        "org_type": "餐飲服務",
+        "location": "臺南市",
+        "inner_url": "https://www.npochannel.net/Cooperation/Partner?VENDER_ID=20240314130936864",
+        "official_link": "https://www.cheeseduke.com.tw/",
+        "image_url": "https://www.npochannel.net/VENDERLOGO\\起士公爵_LOGO_直_綠_600_20210311095328422.png",
+        "description": "「起士公爵」成立於2010年，我們追求「簡單真實」，以食材的純粹與美味，回歸身體真實需求，更以「食物設計」顛覆甜點世界常規，用全新思考，製作出美好的甜點，希望讓每個人品嚐美味的同時也能減少負擔。 我們也相信「土地，純粹，永續」的連結，走向產地，拉近小農與彼此友善土地之間的距離，用商業的力量，推動美好的綠色甜點環境。",
+        "stats": {
+          "communities": 1,
+          "locations": 1,
+          "employees": 50,
+          "joined_year": 2024
+        },
+        "charity_impact": {
+          "days": 729,
+          "npo_count": 1,
+          "fundraising_plans": 1
+        },
+        "donations": {
+          "one_time": {
+            "people": 1,
+            "count": 1,
+            "amount": 200
+          },
+          "recurring": {
+            "people": 0,
+            "count": 0,
+            "amount": 0
+          },
+          "total": {
+            "people": 1,
+            "count": 1,
+            "amount": 200
+          }
+        },
+        "food_delivery": {
+          "people": 5,
+          "count": 5,
+          "portions": 8,
+          "amount": 3192
+        }
+      },
+      {
+        "id": 6,
+        "type": "partner",
+        "category": "校園夥伴",
+        "name": "靜宜大學",
+        "org_type": "大學",
+        "location": "臺中市",
+        "inner_url": "https://www.npochannel.net/Cooperation/Partner?VENDER_ID=20210206114607686",
+        "official_link": "https://www.pu.edu.tw/",
+        "image_url": "https://www.npochannel.net/VENDERLOGO\\pulogo_s_20210208100557016.jpg",
+        "description": "靜宜大學是由美籍修女Sister Marie Gratia Luking所創辦，1932年於河南開封創辦靜宜女中，1956年於台灣復校成立「靜宜女子英語專科學校」，1963年改制為「靜宜女子文理學院」，1989年升格為「靜宜女子大學」，1993年更名為「靜宜大學」。  靜宜大學秉承天主教利他與關懷弱勢精神，以「 進德修業」為校訓，致力於全人教育，以「 培育具有國際觀、專業就業能力及利他思維之社會公民」為教育目標，以茲培育出能踐行美德、追求知識真理與專業學識，提昇個人價值並能增進社會福祉的好公民。",
+        "stats": {
+          "communities": 1,
+          "locations": 48,
+          "employees": 785,
+          "joined_year": 2021
+        },
+        "charity_impact": {
+          "days": 1868,
+          "npo_count": 20,
+          "fundraising_plans": 34
+        },
+        "donations": {
+          "one_time": {
+            "people": 55,
+            "count": 56,
+            "amount": 24000
+          },
+          "recurring": {
+            "people": 0,
+            "count": 0,
+            "amount": 0
+          },
+          "total": {
+            "people": 55,
+            "count": 56,
+            "amount": 24000
+          }
+        },
+        "food_delivery": {
+          "people": 24,
+          "count": 26,
+          "portions": 73,
+          "amount": 26768
+        }
+      },
+      {
+        "id": 7,
+        "type": "partner",
+        "category": "企業夥伴",
+        "name": "社會網絡（股）公司",
+        "org_type": "軟體網路",
+        "location": "高雄市",
+        "inner_url": "https://www.npochannel.net/Cooperation/Partner?VENDER_ID=20210220175117687",
+        "official_link": "https://www.socialnetwork.com.tw/",
+        "image_url": "https://www.npochannel.net/VENDERLOGO\\社會網絡LOGO_英文版_20251208213041241.png",
+        "description": "我們期望成為更多企業的「公益永續」和「文化永續」的合作夥伴。透過共同努力，建立起一個互相支持、共同發展的社會網絡。我們歡迎和各界合作，共同探索更多創新、可持續的解決方案，以推動社會和文化的進步。 期許透過「社會」的核心價值，與更多夥伴攜手，攀登公益和文化永續的高峰，為社會創造更多價值和意義。。",
+        "stats": {
+          "communities": 2,
+          "locations": 3,
+          "employees": 10,
+          "joined_year": 2021
+        },
+        "charity_impact": {
+          "days": 1854,
+          "npo_count": 22,
+          "fundraising_plans": 71
+        },
+        "donations": {
+          "one_time": {
+            "people": 68,
+            "count": 72,
+            "amount": 77462
+          },
+          "recurring": {
+            "people": 10,
+            "count": 91,
+            "amount": 34300
+          },
+          "total": {
+            "people": 78,
+            "count": 163,
+            "amount": 111762
+          }
+        },
+        "food_delivery": {
+          "people": 5200,
+          "count": 5518,
+          "portions": 21067,
+          "amount": 7404236
+        }
+      },
+      {
+        "id": 8,
+        "type": "partner",
+        "category": "校園夥伴",
+        "name": "國立中山大學",
+        "org_type": "大學",
+        "location": "高雄市",
+        "inner_url": "https://www.npochannel.net/Cooperation/Partner?VENDER_ID=20260113061912312",
+        "official_link": "",
+        "image_url": "https://www.npochannel.net/VENDERLOGO\\msys_1003_1428611_93842_20260113071520085.png",
+        "description": "本校堅守人本關懷的教育價值，以追求學術卓越、促進社會流動為發展方向，致力培育社會菁英與領導人才。面對全球時勢變動與高教國際競爭，透過創新跨域的教學研究與服務，整合南臺灣學術產業、民間資源和能量，成為政府政策發展推動的智庫，與在地社區共榮，善盡大學社會責任，以「成為臺灣南方的哈佛大學，提供大南方發展所需要的人才和創意」為願景，邁向人文與理工並重的全方位國際一流大學。",
+        "stats": {
+          "communities": 0,
+          "locations": 0,
+          "employees": 0,
+          "joined_year": 2026
+        },
+        "charity_impact": {
+          "days": 0,
+          "npo_count": 0,
+          "fundraising_plans": 0
+        },
+        "donations": {
+          "one_time": {
+            "people": 0,
+            "count": 0,
+            "amount": 0
+          },
+          "recurring": {
+            "people": 0,
+            "count": 0,
+            "amount": 0
+          },
+          "total": {
+            "people": 0,
+            "count": 0,
+            "amount": 0
+          }
+        },
+        "food_delivery": {
+          "people": 0,
+          "count": 0,
+          "portions": 0,
+          "amount": 0
+        }
+      },
+      {
+        "id": 9,
+        "type": "partner",
+        "category": "企業夥伴",
+        "name": "Acer Family",
+        "org_type": "資通訊",
+        "location": "新北市",
+        "inner_url": "https://www.npochannel.net/Cooperation/Partner?VENDER_ID=20240329171818875",
+        "official_link": "https://www.acer.com/tw-zh",
+        "image_url": "https://www.npochannel.net/VENDERLOGO\\截圖 2025-12-08 21_20251208213552725.png",
+        "description": "Acer 使命打破人與科技之間的藩籬，透過創新和綜合解決方案帶動影響力，也鼓勵同仁關懷環境社會，無論是環境永續、社會慈善或數位教育，持續參與 ESG 相關行動。",
+        "stats": {
+          "communities": 1,
+          "locations": 1,
+          "employees": 3000,
+          "joined_year": 2024
+        },
+        "charity_impact": {
+          "days": 723,
+          "npo_count": 28,
+          "fundraising_plans": 95
+        },
+        "donations": {
+          "one_time": {
+            "people": 162,
+            "count": 246,
+            "amount": 358755
+          },
+          "recurring": {
+            "people": 0,
+            "count": 0,
+            "amount": 0
+          },
+          "total": {
+            "people": 162,
+            "count": 246,
+            "amount": 358755
+          }
+        },
+        "food_delivery": {
+          "people": 112,
+          "count": 115,
+          "portions": 352,
+          "amount": 169319
+        }
+      },
+      {
+        "id": 10,
+        "type": "partner",
+        "category": "校園夥伴",
+        "name": "國立嘉義大學",
+        "org_type": "大學",
+        "location": "嘉義縣",
+        "inner_url": "https://www.npochannel.net/Cooperation/Partner?VENDER_ID=20210207164947250",
+        "official_link": "https://www.ncyu.edu.tw/etech/",
+        "image_url": "https://www.npochannel.net/VENDERLOGO\\1200px-NCYU_20210208173402439.png",
+        "description": "國立嘉義大學由原國立嘉義技術學院(1919年創立)與原國立嘉義師範學院(1957年創立)合併而成，至今(2021年)已有102年歷史。繼當年嘉農棒球隊揚威甲子園後，現在本校以「光耀嘉義、揚名全國、躋身國際」之發展使命與願景為宗旨，以研究高深學術及培養專門人才為要務，積極建構一個充滿關懷、溫馨、和諧、及人文氣息之校園。",
+        "stats": {
+          "communities": 3,
+          "locations": 53,
+          "employees": 1057,
+          "joined_year": 2021
+        },
+        "charity_impact": {
+          "days": 1868,
+          "npo_count": 19,
+          "fundraising_plans": 51
+        },
+        "donations": {
+          "one_time": {
+            "people": 99,
+            "count": 107,
+            "amount": 103626
+          },
+          "recurring": {
+            "people": 7,
+            "count": 81,
+            "amount": 37000
+          },
+          "total": {
+            "people": 106,
+            "count": 188,
+            "amount": 140626
+          }
+        },
+        "food_delivery": {
+          "people": 7,
+          "count": 7,
+          "portions": 8,
+          "amount": 2845
+        }
+      },
+      {
+        "id": 11,
+        "type": "partner",
+        "category": "校園夥伴",
+        "name": "國立高雄大學",
+        "org_type": "大學",
+        "location": "高雄市",
+        "inner_url": "https://www.npochannel.net/Cooperation/Partner?VENDER_ID=20210205142027250",
+        "official_link": "https://www.nuk.edu.tw",
+        "image_url": "https://www.npochannel.net/VENDERLOGO\\nuk-logo_20210208113000541.jpg",
+        "description": "國立高雄大學，民國 89 年 2 月 1 日成立，肩負三大目標：配合政府產業發展政策、均衡南北高等教育之發展、培育視野遼闊且具人文與科學素養的學生。 校徽logo以三個圓點呈現「高」字的概念化表象，點由小而大，如「種子」的成長、發芽， 也象徵「海浪」，有如泉湧般前進的動力。以中文「高」字為設計， 期許高雄大學拓展教育行動於國內外時，必須以自己在地文化特色與源由為本之精神。",
+        "stats": {
+          "communities": 1,
+          "locations": 42,
+          "employees": 4928,
+          "joined_year": 2021
+        },
+        "charity_impact": {
+          "days": 1799,
+          "npo_count": 12,
+          "fundraising_plans": 27
+        },
+        "donations": {
+          "one_time": {
+            "people": 27,
+            "count": 34,
+            "amount": 18320
+          },
+          "recurring": {
+            "people": 2,
+            "count": 20,
+            "amount": 64000
+          },
+          "total": {
+            "people": 29,
+            "count": 54,
+            "amount": 82320
+          }
+        },
+        "food_delivery": {
+          "people": 5,
+          "count": 5,
+          "portions": 7,
+          "amount": 1999
+        }
+      }
+    ]
+  }
+}
