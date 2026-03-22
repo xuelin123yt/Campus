@@ -3,6 +3,7 @@ import json
 import random
 import time
 import requests
+import re
 from datetime import datetime, date
 from dotenv import load_dotenv
 from google import genai
@@ -135,29 +136,47 @@ def generate_post(case: dict, style_name: str) -> str:
             return "文案生成暫時失敗，請檢查 API 配額。"
 
 # ══════════════════════════════════════════════════════
-# Step 4：Pollinations 生成插圖
+# Step 4：loremflickr 生成插圖
 # ══════════════════════════════════════════════════════
 
 def get_image_url(case: dict) -> str:
-    keywords = requests.utils.quote(case.get("title", "")[:15])
-    prompt = requests.utils.quote("warm watercolor illustration, kindness and hope, soft colors, gentle")
-    return f"https://image.pollinations.ai/prompt/{prompt},{keywords}?width=1080&height=1080&nologo=true&seed={random.randint(1,999)}"
+
+    # 🌟 取得標題並清洗（雖然 LoremFlickr 主要是用標籤，但保留清洗是好習慣）
+    raw_title = case.get('title', '')
+    clean_title = re.sub(r'[^\w\s]', '', raw_title)[:12].strip()
+    
+    # 🌟 設定英文標籤 (Tags)
+    base_tags = "care,warm,kindness"
+    
+    # 🌟 產生隨機種子，確保每次發文圖片都不同
+    seed = random.randint(1, 99999)
+    
+    # 最終組合網址 (寬高 1080 符合 Threads 規格)
+    # 格式：https://loremflickr.com/1080/1080/care,warm,kindness?lock=12345
+    image_url = f"https://loremflickr.com/1080/1080/{base_tags}?lock={seed}"
+    
+    print(f"🖼️  圖片網址已生成 (LoremFlickr): {image_url}")
+    return image_url
 
 # ══════════════════════════════════════════════════════
 # Step 5：Threads 發文 (包含圖片容錯機制)
 # ══════════════════════════════════════════════════════
 
 def post_to_threads(text: str, image_url: str, token: str):
-    # --- 圖片可用性檢查 ---
     if image_url:
         print(f"🖼️  正在驗證圖片是否可抓取...")
         try:
-            # 預先下載圖片，確保 URI 有效且 Pollinations 已生成完成
-            img_check = requests.get(image_url, timeout=20)
-            if img_check.status_code != 200:
-                print("⚠️  圖片抓取失敗，降級為純文字發文")
+            img_check = requests.head(image_url, timeout=15, allow_redirects=True)
+            
+            if img_check.status_code == 200:
+                print(f"✅ 圖片驗證成功 (最終網址: {img_check.url})")
+                # 建議使用最終導向後的網址，Threads 抓圖更穩
+                image_url = img_check.url 
+            else:
+                print(f"⚠️  圖片未就緒 (Status: {img_check.status_code})，降級發文")
                 image_url = None
-        except:
+        except Exception as e:
+            print(f"💥 圖片驗證發生例外 ({e})")
             image_url = None
 
     url = f"{THREADS_BASE}/{THREADS_USER_ID}/threads"
