@@ -7,6 +7,9 @@ on:
     - cron: "0 14 * * *"  # 台灣 22:00
   workflow_dispatch:
 
+permissions:
+  contents: write      # ← 加這兩行
+
 jobs:
   post:
     runs-on: ubuntu-latest
