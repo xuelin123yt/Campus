@@ -32,13 +32,10 @@ USED_FILE    = "used_today.json"
 CASES_FILE   = "output/fundraising.json"
 
 # ══════════════════════════════════════════════════════
-# 工具函式：自動模型切換器 (Auto-Fallback Mechanism)
+# 工具函式：自動模型切換器 (保留你原本的所有模型順序)
 # ══════════════════════════════════════════════════════
 
 def safe_generate(client, prompt, model_order=None):
-    """
-    依照優先順序嘗試模型，若遇 429 配額錯誤自動切換至下一個。
-    """
     if model_order is None:
         model_order = [
             "gemini-2.5-flash", 
@@ -64,7 +61,6 @@ def safe_generate(client, prompt, model_order=None):
             else:
                 print(f"❌ {model} 發生非預期錯誤：{err_msg}")
                 continue
-                
     return None, None
 
 # ══════════════════════════════════════════════════════
@@ -91,7 +87,7 @@ def refresh_token() -> str:
         return THREADS_ACCESS_TOKEN
 
 # ══════════════════════════════════════════════════════
-# Step 2：選取今日個案
+# Step 2：選取今日個案 (保留你原本的去重邏輯)
 # ══════════════════════════════════════════════════════
 
 def load_used_today() -> list:
@@ -153,7 +149,7 @@ def generate_post(case: dict, style_name: str) -> str:
     return "文案生成失敗"
 
 # ══════════════════════════════════════════════════════
-# Step 4：HuggingFace 生圖 + Cloudinary 上傳
+# Step 4：HuggingFace 生圖 + Cloudinary 上傳 (保留精確分析與簽名)
 # ══════════════════════════════════════════════════════
 
 IMAGE_PROMPTS = {
@@ -163,7 +159,6 @@ IMAGE_PROMPTS = {
 }
 
 def generate_and_upload_image(case: dict, post_text: str = "") -> str:
-    """自動模型切換分析意象 → 生圖 → 上傳"""
     try:
         print("\n" + "╔" + "═"*50 + "╗")
         print("║ 🎨 Gemini 意象分析：排除圖片衝突元素...            ║")
@@ -222,13 +217,13 @@ Post: {post_text[:400]}
                 "signature": signature,
             }, timeout=60
         )
-        return resp.json()["secure_url"] if resp.status_code == 200 else None
+        return resp.json().get("secure_url") if resp.status_code == 200 else None
     except Exception as e:
         print(f"❌ 生圖或上傳失敗: {e}")
         return None
 
 # ══════════════════════════════════════════════════════
-# Step 5：Threads 發文邏輯
+# Step 5：Threads 發文邏輯 (核心增強：加入狀態輪詢)
 # ══════════════════════════════════════════════════════
 
 def create_container(text: str, image_url: str, token: str) -> str:
@@ -238,15 +233,40 @@ def create_container(text: str, image_url: str, token: str) -> str:
         params["media_type"], params["image_url"] = "IMAGE", image_url
     else:
         params["media_type"] = "TEXT"
-    resp = requests.post(url, params=params, timeout=15)
-    return resp.json()["id"]
+    
+    resp = requests.post(url, params=params, timeout=15).json()
+    if "id" in resp:
+        return resp["id"]
+    else:
+        print(f"❌ 建立容器失敗: {resp}")
+        return None
+
+def wait_for_ready(creation_id: str, token: str):
+    """檢查媒體容器是否已經被 Threads 處理完畢"""
+    print(f"⏳ 正在等待 Threads 處理媒體 (ID: {creation_id})...")
+    url = f"{THREADS_BASE}/{creation_id}"
+    for i in range(12):  # 嘗試 12 次，每次 5 秒，總計 60 秒
+        try:
+            resp = requests.get(url, params={"fields": "status,error_message", "access_token": token}, timeout=10).json()
+            status = resp.get("status")
+            if status == "FINISHED":
+                print("✅ 媒體處理完成，可以發布")
+                return True
+            elif status == "ERROR":
+                print(f"❌ Threads 處理媒體失敗: {resp.get('error_message')}")
+                return False
+            print(f"   目前狀態: {status}... ({i+1}/12)")
+        except Exception as e:
+            print(f"⚠️  檢查狀態時發生網路錯誤: {e}")
+        time.sleep(5)
+    print("❌ 媒體處理超時")
+    return False
 
 def publish_container(creation_id: str, token: str) -> str:
-    print("⏳ 準備發布中...")
-    time.sleep(30)
+    print("🚀 執行發布命令...")
     url = f"{THREADS_BASE}/{THREADS_USER_ID}/threads_publish"
-    resp = requests.post(url, params={"creation_id": creation_id, "access_token": token}, timeout=15)
-    return resp.json()["id"]
+    resp = requests.post(url, params={"creation_id": creation_id, "access_token": token}, timeout=15).json()
+    return resp.get("id")
 
 # ══════════════════════════════════════════════════════
 # 主流程
@@ -270,12 +290,25 @@ def main():
 
     image_url = generate_and_upload_image(case, post_text)
 
+    if not image_url:
+        print("❌ 警告：圖片生成失敗，將改為純文字發布。")
+
     try:
         c_id = create_container(post_text, image_url, token)
-        p_id = publish_container(c_id, token)
-        print(f"✅ 發文成功！ID: {p_id}")
+        if c_id:
+            # 如果有圖片，必須先確認狀態為 FINISHED 才能 Publish
+            if image_url:
+                is_ready = wait_for_ready(c_id, token)
+                if not is_ready:
+                    print("⚠️ 媒體未準備好，發文可能不含圖片或失敗。")
+            
+            p_id = publish_container(c_id, token)
+            if p_id:
+                print(f"✅ 發文成功！貼文 ID: {p_id}")
+            else:
+                print("❌ 發布失敗。")
     except Exception as e:
-        print(f"❌ 發文失敗: {e}")
+        print(f"❌ 發文過程出錯: {e}")
 
 if __name__ == "__main__":
     main()

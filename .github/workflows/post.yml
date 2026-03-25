@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write      # ← 加這兩行
+  contents: write
 
 jobs:
   post:
@@ -37,5 +37,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add used_today.json
-          git diff --staged --quiet || git commit -m "auto: 更新今日已發文記錄"
+          git diff --staged --quiet || git commit -m "今日已自動更新發文記錄"
           git push
