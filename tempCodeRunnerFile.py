@@ -129,10 +129,6 @@ STYLES = {
 def generate_post(case: dict, style_name: str) -> str:
     client = genai.Client(api_key=GEMINI_API_KEY)
     prompt = f"""
-你是一位心靈大師，語文造詣跟感動眾人是你的專長。
-這篇貼文的主要目的是讓看到你的文章的人想要點下網址去捐款。
-可嘗試加入1~2個五官的寫實感受。
-首先公益個案只是參考，讓你理解該個案的主題，我們需要創新的文章。
 請根據以下公益個案，用「{style_name}」風格撰寫一篇 Threads 貼文。
 風格說明：{STYLES[style_name]}
 【個案標題】{case.get('title', '')}
@@ -144,8 +140,7 @@ def generate_post(case: dict, style_name: str) -> str:
 1. 全文總字元數必須在 400 字元以內。
 2. 語氣真誠溫暖。
 3. 結尾附上連結與 #公益 #台灣 等 2-3 個 hashtag。
-4. 連結格式 捐款連結:【捐款連結】
-5. 只輸出貼文內容。
+4. 只輸出貼文內容。
 """
     content, used_model = safe_generate(client, prompt)
     if content:
@@ -166,14 +161,14 @@ IMAGE_PROMPTS = {
 def generate_and_upload_image(case: dict, post_text: str = "") -> str:
     try:
         print("\n" + "╔" + "═"*50 + "╗")
-        print("║ 🎨 Gemini 意象分析：排除圖片衝突元素...          ║")
+        print("║ 🎨 Gemini 意象分析：排除圖片衝突元素...            ║")
         print("╚" + "═"*50 + "╝")
         
         img_client = genai.Client(api_key=GEMINI_API_KEY)
         img_analysis_prompt = f"""
 Based on this charity post, create a STILL LIFE art prompt (15-20 words).
 STRICT RULES: 
-- NO HUMANS, NO HANDS, NO FACES, NO WATERMARK.
+- NO HUMANS, NO HANDS, NO FACES.
 - Focus on symbolic objects (books, light, plants, warm soup, etc.)
 - Style: Dreamy warm watercolor, soft lighting.
 Output only the English prompt.
