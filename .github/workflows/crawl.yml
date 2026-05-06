@@ -2,29 +2,38 @@ name: 每日爬蟲更新個案庫
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"   # 台灣 08:00（每天爬一次，在發文前更新）
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   crawl:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: 安裝套件
+      - name: 安裝 Tesseract（含繁中語言包）
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-chi-tra
+
+      - name: 安裝 Python 套件
         run: pip install -r requirements.txt
 
-      - name: 執行爬蟲
-        run: python npochannel_crawler.py 1
+      - name: 執行爬蟲（全部頁面）
+        run: python npochannel_crawler.py 3
 
       - name: 提交更新的 JSON
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add output/
           git diff --staged --quiet || git commit -m "自動更新個案庫 $(date '+%Y-%m-%d')"
           git push
