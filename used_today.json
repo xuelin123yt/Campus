@@ -4,6 +4,8 @@
         "food": [
             2
         ],
-        "fundraising": []
+        "fundraising": [
+            128
+        ]
     }
 }
