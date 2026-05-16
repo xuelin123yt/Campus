@@ -1,11 +1,9 @@
 {
-    "date": "2026-05-15",
+    "date": "2026-05-16",
     "used_ids": {
         "food": [
-            12
+            13
         ],
-        "fundraising": [
-            68
-        ]
+        "fundraising": []
     }
 }
